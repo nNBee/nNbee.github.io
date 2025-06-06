@@ -299,7 +299,7 @@
       }
     ],
     "contents" : {
-      "html" : "<h1>Add a New Category</h1><p>Categories are essential for organizing content in documentation websites. They help visitors find guides and enhance site navigation. Follow the steps below to add a new category in <strong>T-Doc Theme</strong>.</p><hr><h3 id=\"step-1-navigate-to-the-docs-directory\">Step 1: Navigate to the Docs Directory</h3><ol><li>Open your project directory.</li><li>Go to the <strong>src/contents/docs/</strong> folder. This folder contains all documentation content.</li></ol><hr><h3 id=\"step-2-create-a-new-category-directory\">Step 2: Create a New Category Directory</h3><ol><li>Create a new directory for your category:<ul><li>Name the folder based on the category name you want to add. For example:<pre><code class=\"language-bash\">mkdir src/contents/docs/my-new-category\n</code></pre></li><li>Use lowercase letters and hyphens for consistency in folder naming.</li></ul></li></ol><hr><h3 id=\"step-3-add-an-index.md-file\">Step 3: Add an <code>index.md</code> File</h3><ol><li>Inside the new directory (e.g., <code>src/contents/docs/my-new-category</code>), create a file named <code>index.md</code>.<ul><li>This file contains the metadata for the category.</li></ul></li><li>Add the following content to the <code>index.md</code> file:<pre><code>---\ntype: category\nslug: my-new-category\ntitle: My New Category\ndescription: 'A description for this category.'\norder: 1\n---\n</code></pre><strong>Fields Explanation</strong>:<ul><li><strong>type</strong>: Always set to <code>category</code>.</li><li><strong>slug</strong>: A unique, URL-friendly identifier for the category.</li><li><strong>title</strong>: The display name of the category.</li><li><strong>description</strong>: A short description of the category.</li><li><strong>order</strong>: Specifies the display order of categories, with lower numbers appearing first.</li></ul></li></ol><hr><h3 id=\"step-4-regenerate-the-site\">Step 4: Regenerate the Site</h3><p>Once the category is created, regenerate your site to apply the changes:</p><ol><li>Open your terminal and navigate to your project directory.</li><li>Run the following command:<pre><code>toucan generate\n</code></pre></li><li>This updates the site’s content and templates to incorporate the new category.</li></ol><hr><h3 id=\"step-5-verify-the-category\">Step 5: Verify the Category</h3><ol><li>Start the local development server:<pre><code>toucan serve\n</code></pre></li><li>Open your browser and go to <a href=\"http://localhost:3000\" target=\"_blank\">http://localhost:3000</a>.</li><li>Go to the <strong>Docs</strong> page to verify that the new category appears in the left-hand documentation menu.</li></ol><hr><h3 id=\"additional-notes\">Additional Notes</h3><ul><li><strong>Using Categories in Guides</strong>:<ul><li>To assign a category to a guide, include it in the <code>category</code> field of the guide’s <code>index.md</code> file. Example:<pre><code class=\"language-markdown\">category: my-new-category\n</code></pre></li></ul></li></ul><hr><p>This guide will help you easily add and manage categories in <strong>T-Doc Theme</strong>.</p>",
+      "html" : "<h1>Add a New Category</h1><p>Categories are essential for organizing content in documentation websites. They help visitors find guides and enhance site navigation. Follow the steps below to add a new category in <strong>T-Doc Theme</strong>.</p><hr><h3 id=\"step-1-navigate-to-the-docs-directory\">Step 1: Navigate to the Docs Directory</h3><ol><li>Open your project directory.</li><li>Go to the <strong>src/contents/docs/</strong> folder. This folder contains all documentation content.</li></ol><hr><h3 id=\"step-2-create-a-new-category-directory\">Step 2: Create a New Category Directory</h3><ol><li>Create a new directory for your category:<ul><li>Name the folder based on the category name you want to add. For example:<pre><code class=\"language-bash\">mkdir src/contents/docs/my-new-category\n</code></pre></li><li>Use lowercase letters and hyphens for consistency in folder naming.</li></ul></li></ol><hr><h3 id=\"step-3-add-an-index.md-file\">Step 3: Add an <code>index.md</code> File</h3><ol><li>Inside the new directory (e.g., <code>src/contents/docs/my-new-category</code>), create a file named <code>index.md</code>.<ul><li>This file contains the metadata for the category.</li></ul></li><li>Add the following content to the <code>index.md</code> file:<pre><code>---\ntype: category\nslug: my-new-category\ntitle: My New Category\ndescription: 'A description for this category.'\norder: 1\n---\n</code></pre><strong>Fields Explanation</strong>:<ul><li><strong>type</strong>: Always set to <code>category</code>.</li><li><strong>slug</strong>: A unique, URL-friendly identifier for the category.</li><li><strong>title</strong>: The display name of the category.</li><li><strong>description</strong>: A short description of the category.</li><li><strong>order</strong>: Specifies the display order of categories, with lower numbers appearing first.</li></ul></li></ol><hr><h3 id=\"step-4-regenerate-the-site\">Step 4: Regenerate the Site</h3><p>Once the category is created, regenerate your site to apply the changes:</p><ol><li>Open your terminal and navigate to your project directory.</li><li>Run the following command:<pre><code>toucan generate\n</code></pre></li><li>This updates the site’s content and templates to incorporate the new category.</li></ol><hr><h3 id=\"step-5-verify-the-category\">Step 5: Verify the Category</h3><ol><li>Start the local development server:<pre><code>toucan serve\n</code></pre></li><li>Open your browser and go to <a href=\"http://localhost:3000\" target=\"_blank\">http://localhost:3000</a>.</li><li>Go to the <strong>Docs</strong> page to verify that the new category appears in the left-hand documentation menu.</li></ol><hr><h3 id=\"additional-notes\">Additional Notes</h3><ul><li><strong>Using Categories in Guides</strong>:<ul><li>To assign a category to a guide, include it in the <code>category</code> field of the guide’s <code>index.md</code> file. Example:<pre><code>category: my-new-category\n</code></pre></li></ul></li></ul><hr><p>This guide will help you easily add and manage categories in <strong>T-Doc Theme</strong>.</p>",
       "outline" : [
         {
           "children" : [
@@ -362,18 +362,18 @@
         "short" : "6/6/25"
       },
       "formats" : {
-        "iso8601" : "2025-06-06T10:08:49.286Z",
-        "rss" : "Fri, 06 Jun 2025 10:08:49 +0000",
+        "iso8601" : "2025-06-06T10:10:40.214Z",
+        "rss" : "Fri, 06 Jun 2025 10:10:40 +0000",
         "sitemap" : "2025-06-06",
         "year" : "2025"
       },
       "time" : {
-        "full" : "10:08:49 AM Greenwich Mean Time",
-        "long" : "10:08:49 AM GMT",
-        "medium" : "10:08:49 AM",
-        "short" : "10:08 AM"
+        "full" : "10:10:40 AM Greenwich Mean Time",
+        "long" : "10:10:40 AM GMT",
+        "medium" : "10:10:40 AM",
+        "short" : "10:10 AM"
       },
-      "timestamp" : 1749204529.2859197
+      "timestamp" : 1749204640.213748
     },
     "order" : 2,
     "permalink" : "https://nnbee.github.io/theme-basics/add-a-new-category/",
@@ -831,7 +831,7 @@
       }
     ],
     "contents" : {
-      "html" : "<h1>Text Formatting and Lists</h1><p>Markdown is a lightweight markup language for formatting plain text. Here’s how to use its essential syntax.</p><hr><h2 id=\"text-formatting\">Text Formatting</h2><hr><h3 id=\"headings\">Headings</h3><p>Use <code>#</code> for headings. The number of <code>#</code> symbols determines the level:</p><pre><code class=\"language-markdown\"># Heading 1\n\n## Heading 2\n\n### Heading 3\n</code></pre><hr><h3 id=\"bold-and-italics\">Bold and Italics</h3><pre><code>Bold: **text** or __text__\nItalic: *text* or _text_\nBold and Italic: ***text*** or ___text___\n</code></pre><hr><h3 id=\"blockquotes\">Blockquotes</h3><p>Use <code>></code> to create blockquotes:</p><pre><code>&gt; This is a blockquote.\n</code></pre><hr><h2 id=\"lists\">Lists</h2><h3 id=\"unordered-lists\">Unordered Lists</h3><p>Use <code>-</code> or <code>*</code> to create unordered lists:</p><pre><code>- Item 1\n- Item 2\n  - Subitem 2.1\n</code></pre><hr><h3 id=\"ordered-lists\">Ordered Lists</h3><p>Use numbers followed by a dot to create ordered lists:</p><pre><code>1. Item 1\n2. Item 2\n   1. Subitem 2.1\n   - Subitem 2.2\n</code></pre><hr><h3 id=\"nesting\">Nesting</h3><p>You can nest ordered and unordered lists together:</p><pre><code>1. Ordered item\n   - Subitem 1\n   2. Ordered subitem\n</code></pre><hr><h2 id=\"conclusion\">Conclusion</h2><p>These formatting and list options help structure your content effectively. In the next guide, we’ll explore advanced features like links, images, and tables!</p>",
+      "html" : "<h1>Text Formatting and Lists</h1><p>Markdown is a lightweight markup language for formatting plain text. Here’s how to use its essential syntax.</p><hr><h2 id=\"text-formatting\">Text Formatting</h2><hr><h3 id=\"headings\">Headings</h3><p>Use <code>#</code> for headings. The number of <code>#</code> symbols determines the level:</p><pre><code># Heading 1\n\n## Heading 2\n\n### Heading 3\n</code></pre><hr><h3 id=\"bold-and-italics\">Bold and Italics</h3><pre><code>Bold: **text** or __text__\nItalic: *text* or _text_\nBold and Italic: ***text*** or ___text___\n</code></pre><hr><h3 id=\"blockquotes\">Blockquotes</h3><p>Use <code>></code> to create blockquotes:</p><pre><code>&gt; This is a blockquote.\n</code></pre><hr><h2 id=\"lists\">Lists</h2><h3 id=\"unordered-lists\">Unordered Lists</h3><p>Use <code>-</code> or <code>*</code> to create unordered lists:</p><pre><code>- Item 1\n- Item 2\n  - Subitem 2.1\n</code></pre><hr><h3 id=\"ordered-lists\">Ordered Lists</h3><p>Use numbers followed by a dot to create ordered lists:</p><pre><code>1. Item 1\n2. Item 2\n   1. Subitem 2.1\n   - Subitem 2.2\n</code></pre><hr><h3 id=\"nesting\">Nesting</h3><p>You can nest ordered and unordered lists together:</p><pre><code>1. Ordered item\n   - Subitem 1\n   2. Ordered subitem\n</code></pre><hr><h2 id=\"conclusion\">Conclusion</h2><p>These formatting and list options help structure your content effectively. In the next guide, we’ll explore advanced features like links, images, and tables!</p>",
       "outline" : [
         {
           "children" : [
@@ -912,24 +912,24 @@
     "image" : null,
     "lastUpdate" : {
       "date" : {
-        "full" : "Wednesday, March 19, 2025",
-        "long" : "March 19, 2025",
-        "medium" : "Mar 19, 2025",
-        "short" : "3/19/25"
+        "full" : "Friday, June 6, 2025",
+        "long" : "June 6, 2025",
+        "medium" : "Jun 6, 2025",
+        "short" : "6/6/25"
       },
       "formats" : {
-        "iso8601" : "2025-03-19T11:53:42.000Z",
-        "rss" : "Wed, 19 Mar 2025 11:53:42 +0000",
-        "sitemap" : "2025-03-19",
+        "iso8601" : "2025-06-06T10:11:08.367Z",
+        "rss" : "Fri, 06 Jun 2025 10:11:08 +0000",
+        "sitemap" : "2025-06-06",
         "year" : "2025"
       },
       "time" : {
-        "full" : "11:53:42 AM Greenwich Mean Time",
-        "long" : "11:53:42 AM GMT",
-        "medium" : "11:53:42 AM",
-        "short" : "11:53 AM"
+        "full" : "10:11:08 AM Greenwich Mean Time",
+        "long" : "10:11:08 AM GMT",
+        "medium" : "10:11:08 AM",
+        "short" : "10:11 AM"
       },
-      "timestamp" : 1742385222
+      "timestamp" : 1749204668.3673043
     },
     "order" : 1,
     "permalink" : "https://nnbee.github.io/markdown-basics/text-formatting-and-lists/",

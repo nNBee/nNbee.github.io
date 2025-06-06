@@ -96,7 +96,7 @@ Once the category is created, regenerate your site to apply the changes:
 
   - To assign a category to a guide, include it in the `category` field of the guide’s `index.md` file. Example:
 
-    ```markdown
+    ```
     category: my-new-category
     ```
 
