@@ -56,17 +56,6 @@
 <body>
     <div class='bg'></div>
     <div class='content'>
-        <script type="module">
-        document.getElementById('color-picker').addEventListener('input', (event) => {
-          const baseColor = event.target.value;
-            console.log('🎯 Input value:', baseColor); // <-- Ez kiírja, mit ad vissza
-          const scale = generateTailwindScale(baseColor);
-        
-          for (const [varName, value] of Object.entries(scale)) {
-            document.documentElement.style.setProperty(varName, value);
-          }
-        });
-        </script>
         <div id="navigation-container">
             <header id="navigation" class="wrapper">
                 <a href="https://nnbee.github.io/" class="logo">
