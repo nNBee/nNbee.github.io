@@ -2,7 +2,7 @@ window.searchDocs = async function (query) {
   if (!query || query.trim().length < 2) return [];
 
   try {
-    const res = await fetch('./api/content.json');
+    const res = await fetch('/api/content.json');
     const guides = await res.json();
 
     const lowerQuery = query.toLowerCase();
