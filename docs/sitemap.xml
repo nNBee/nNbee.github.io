@@ -1,40 +1,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-            <loc>http://localhost:3000/about/</loc>
+            <loc>https://nnbee.github.io/about/</loc>
             <lastmod>2025-04-01</lastmod>
-            <loc>http://localhost:3000/contact/</loc>
+            <loc>https://nnbee.github.io/contact/</loc>
             <lastmod>2025-04-01</lastmod>
-            <loc>http://localhost:3000/docs/</loc>
+            <loc>https://nnbee.github.io/docs/</loc>
             <lastmod>2025-03-27</lastmod>
-            <loc>http://localhost:3000/</loc>
+            <loc>https://nnbee.github.io/</loc>
             <lastmod>2025-06-05</lastmod>
 
-            <loc>http://localhost:3000/deployment/</loc>
+            <loc>https://nnbee.github.io/deployment/</loc>
             <lastmod>2025-04-01</lastmod>
-            <loc>http://localhost:3000/getting-started/</loc>
+            <loc>https://nnbee.github.io/getting-started/</loc>
             <lastmod>2025-04-01</lastmod>
-            <loc>http://localhost:3000/markdown-basics/</loc>
+            <loc>https://nnbee.github.io/markdown-basics/</loc>
             <lastmod>2025-04-01</lastmod>
-            <loc>http://localhost:3000/theme-basics/</loc>
+            <loc>https://nnbee.github.io/theme-basics/</loc>
             <lastmod>2025-04-01</lastmod>
 
-            <loc>http://localhost:3000/theme-basics/add-a-new-page/</loc>
+            <loc>https://nnbee.github.io/theme-basics/add-a-new-page/</loc>
             <lastmod>2025-03-19</lastmod>
-            <loc>http://localhost:3000/theme-basics/add-a-new-category/</loc>
+            <loc>https://nnbee.github.io/theme-basics/add-a-new-category/</loc>
             <lastmod>2025-03-19</lastmod>
-            <loc>http://localhost:3000/theme-basics/add-a-new-guide/</loc>
+            <loc>https://nnbee.github.io/theme-basics/add-a-new-guide/</loc>
             <lastmod>2025-03-19</lastmod>
-            <loc>http://localhost:3000/theme-basics/change-the-site-logo/</loc>
+            <loc>https://nnbee.github.io/theme-basics/change-the-site-logo/</loc>
             <lastmod>2025-03-19</lastmod>
-            <loc>http://localhost:3000/theme-basics/customize-the-footer/</loc>
+            <loc>https://nnbee.github.io/theme-basics/customize-the-footer/</loc>
             <lastmod>2025-03-19</lastmod>
-            <loc>http://localhost:3000/deployment/github-pages/</loc>
+            <loc>https://nnbee.github.io/deployment/github-pages/</loc>
             <lastmod>2025-03-19</lastmod>
-            <loc>http://localhost:3000/getting-started/how-to-use/</loc>
+            <loc>https://nnbee.github.io/getting-started/how-to-use/</loc>
             <lastmod>2025-03-19</lastmod>
-            <loc>http://localhost:3000/markdown-basics/links-images-and-tables/</loc>
+            <loc>https://nnbee.github.io/markdown-basics/links-images-and-tables/</loc>
             <lastmod>2025-03-19</lastmod>
-            <loc>http://localhost:3000/markdown-basics/text-formatting-and-lists/</loc>
+            <loc>https://nnbee.github.io/markdown-basics/text-formatting-and-lists/</loc>
             <lastmod>2025-03-19</lastmod>
     </url>
 </urlset>

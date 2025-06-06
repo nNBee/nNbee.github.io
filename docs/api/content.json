@@ -33,7 +33,7 @@
           "timestamp" : 1743507357
         },
         "order" : 1,
-        "permalink" : "http://localhost:3000/getting-started/",
+        "permalink" : "https://nnbee.github.io/getting-started/",
         "slug" : {
           "value" : "getting-started"
         },
@@ -41,7 +41,7 @@
       }
     ],
     "contents" : {
-      "html" : "<h1>How to use</h1><h2 id=\"disclaimer\">Disclaimer</h2><blockquote><p>Toucan product is currently in its beta phase, which means you might encounter issues when attempting to customize the template with Toucan. While we’re actively refining and improving the experience, some features may be unstable or require manual adjustments. The T-Doc template is fully operational as it is! We appreciate your flexibility as we work towards a more polished version! 🚀</p></blockquote><hr><h2 id=\"introduction\">Introduction</h2><p>Thank you for purchasing T-Doc Theme! This theme is built on our very own, soaring Toucan static site generator, which uses Markdown for content creation and Mustache templates for layout and design. Together, these tools make it easy to add, edit, and manage your site’s content while maintaining a visually appealing and professional design. Mustache templates can be used not only for design but also for dynamic components.</p><p>With Markdown, you can write formatted text in plain-text files, which Toucan converts into HTML. Mustache templates allow you to customize the layout and presentation of your site with clean, readable syntax. Together, they give you full control over both the content and appearance of your site.</p><p>This guide will walk you through essential tasks, such as changing the site logo, adding new content (categories, guides), and customizing your site’s pages and footer. It also covers Markdown basics and provides instructions for deploying your site to GitHub Pages, ensuring a smooth publishing process.</p><hr><h2 id=\"change-content\">Change content</h2><p>Easily customize your site’s content by following these guides:</p><ul><li><a href=\"http://localhost:3000/theme-basics/change-the-site-logo\">Change site logo</a>: Learn how to replace or update images across your site.</li><li><a href=\"http://localhost:3000/theme-basics/add-a-new-category\">Add a new category</a>: Organize your guides by creating categories to improve navigation.</li><li><a href=\"http://localhost:3000/theme-basics/add-a-new-guide\">Add a new guide</a>: Create and publish new content using Markdown while associating it with a relevant category.</li><li><a href=\"http://localhost:3000/theme-basics/add-a-new-page\">Create a custom page in navigation</a>: Add static pages, like “About” or “Contact Us,” and include them in the navigation menu.</li><li><a href=\"http://localhost:3000/theme-basics/customize-the-footer\">Customize the footer</a>: Update your site’s footer with social links, copyright information, and custom text.</li></ul><p>Each guide is designed to provide step-by-step instructions to make the customization process seamless.</p><hr><h2 id=\"markdown-basics\">Markdown basics</h2><p>Markdown is an easy-to-use markup language that simplifies formatting. Learn the essentials through these guides:</p><ul><li><a href=\"http://localhost:3000/markdown-basics/text-formatting-and-lists\">Markdown basics part one</a>: Covers headings, bold/italic text and blockquotes.</li><li><a href=\"http://localhost:3000/markdown-basics/links-images-and-tables\">Markdown basics part two</a>: Explores advanced features like lists, links and images.</li></ul><p>Whether you’re new to Markdown or need a refresher, these guides will help you master its simplicity.</p><hr><h2 id=\"deploy-to-github\">Deploy to GitHub</h2><p>Publish your site live using GitHub Pages:</p><ul><li><a href=\"http://localhost:3000/deployment/github-pages\">Deploy to a GitHub Page</a>: Follow step-by-step instructions to deploy your docs folder to GitHub Pages and manage updates to your site easily.</li></ul><p>This guide ensures you can easily manage updates and publish changes to your site.</p><hr><h2 id=\"closing-notes\">Closing Notes</h2><p>Thank you again for choosing T-Doc Theme! If you have any questions or need further assistance, feel free to:</p><ul><li><a href=\"http://localhost:3000/contact\">Contact</a> us directly.</li><li>Check the <a href=\"https://toucansites.com/docs/\" target=\"_blank\">Toucan documentation</a> for detailed developer guidance.</li><li>Explore the examples provided in this guide.</li></ul><hr><h2 id=\"give-a-star-on-github\">Give a star on GitHub 🙏</h2><p>I’m sure you know how much ratings on GitHub mean to an online service provider. Giving us a star helps the project grow, and we appreciate your support if you like Toucan and the T-Doc theme. Thank you!</p><p><a href=\"https://github.com/toucansites/toucan\" target=\"_blank\">Toucan on GitHub</a></p>",
+      "html" : "<h1>How to use</h1><h2 id=\"disclaimer\">Disclaimer</h2><blockquote><p>Toucan product is currently in its beta phase, which means you might encounter issues when attempting to customize the template with Toucan. While we’re actively refining and improving the experience, some features may be unstable or require manual adjustments. The T-Doc template is fully operational as it is! We appreciate your flexibility as we work towards a more polished version! 🚀</p></blockquote><hr><h2 id=\"introduction\">Introduction</h2><p>Thank you for purchasing T-Doc Theme! This theme is built on our very own, soaring Toucan static site generator, which uses Markdown for content creation and Mustache templates for layout and design. Together, these tools make it easy to add, edit, and manage your site’s content while maintaining a visually appealing and professional design. Mustache templates can be used not only for design but also for dynamic components.</p><p>With Markdown, you can write formatted text in plain-text files, which Toucan converts into HTML. Mustache templates allow you to customize the layout and presentation of your site with clean, readable syntax. Together, they give you full control over both the content and appearance of your site.</p><p>This guide will walk you through essential tasks, such as changing the site logo, adding new content (categories, guides), and customizing your site’s pages and footer. It also covers Markdown basics and provides instructions for deploying your site to GitHub Pages, ensuring a smooth publishing process.</p><hr><h2 id=\"change-content\">Change content</h2><p>Easily customize your site’s content by following these guides:</p><ul><li><a href=\"https://nnbee.github.io/theme-basics/change-the-site-logo\">Change site logo</a>: Learn how to replace or update images across your site.</li><li><a href=\"https://nnbee.github.io/theme-basics/add-a-new-category\">Add a new category</a>: Organize your guides by creating categories to improve navigation.</li><li><a href=\"https://nnbee.github.io/theme-basics/add-a-new-guide\">Add a new guide</a>: Create and publish new content using Markdown while associating it with a relevant category.</li><li><a href=\"https://nnbee.github.io/theme-basics/add-a-new-page\">Create a custom page in navigation</a>: Add static pages, like “About” or “Contact Us,” and include them in the navigation menu.</li><li><a href=\"https://nnbee.github.io/theme-basics/customize-the-footer\">Customize the footer</a>: Update your site’s footer with social links, copyright information, and custom text.</li></ul><p>Each guide is designed to provide step-by-step instructions to make the customization process seamless.</p><hr><h2 id=\"markdown-basics\">Markdown basics</h2><p>Markdown is an easy-to-use markup language that simplifies formatting. Learn the essentials through these guides:</p><ul><li><a href=\"https://nnbee.github.io/markdown-basics/text-formatting-and-lists\">Markdown basics part one</a>: Covers headings, bold/italic text and blockquotes.</li><li><a href=\"https://nnbee.github.io/markdown-basics/links-images-and-tables\">Markdown basics part two</a>: Explores advanced features like lists, links and images.</li></ul><p>Whether you’re new to Markdown or need a refresher, these guides will help you master its simplicity.</p><hr><h2 id=\"deploy-to-github\">Deploy to GitHub</h2><p>Publish your site live using GitHub Pages:</p><ul><li><a href=\"https://nnbee.github.io/deployment/github-pages\">Deploy to a GitHub Page</a>: Follow step-by-step instructions to deploy your docs folder to GitHub Pages and manage updates to your site easily.</li></ul><p>This guide ensures you can easily manage updates and publish changes to your site.</p><hr><h2 id=\"closing-notes\">Closing Notes</h2><p>Thank you again for choosing T-Doc Theme! If you have any questions or need further assistance, feel free to:</p><ul><li><a href=\"https://nnbee.github.io/contact\">Contact</a> us directly.</li><li>Check the <a href=\"https://toucansites.com/docs/\" target=\"_blank\">Toucan documentation</a> for detailed developer guidance.</li><li>Explore the examples provided in this guide.</li></ul><hr><h2 id=\"give-a-star-on-github\">Give a star on GitHub 🙏</h2><p>I’m sure you know how much ratings on GitHub mean to an online service provider. Giving us a star helps the project grow, and we appreciate your support if you like Toucan and the T-Doc theme. Thank you!</p><p><a href=\"https://github.com/toucansites/toucan\" target=\"_blank\">Toucan on GitHub</a></p>",
       "outline" : [
         {
           "children" : [
@@ -126,7 +126,7 @@
       "timestamp" : 1742386219
     },
     "order" : 1,
-    "permalink" : "http://localhost:3000/getting-started/how-to-use/",
+    "permalink" : "https://nnbee.github.io/getting-started/how-to-use/",
     "slug" : {
       "value" : "getting-started/how-to-use"
     },
@@ -166,7 +166,7 @@
           "timestamp" : 1743507365
         },
         "order" : 1,
-        "permalink" : "http://localhost:3000/theme-basics/",
+        "permalink" : "https://nnbee.github.io/theme-basics/",
         "slug" : {
           "value" : "theme-basics"
         },
@@ -251,7 +251,7 @@
       "timestamp" : 1742375665
     },
     "order" : 1,
-    "permalink" : "http://localhost:3000/theme-basics/change-the-site-logo/",
+    "permalink" : "https://nnbee.github.io/theme-basics/change-the-site-logo/",
     "slug" : {
       "value" : "theme-basics/change-the-site-logo"
     },
@@ -291,7 +291,7 @@
           "timestamp" : 1743507365
         },
         "order" : 1,
-        "permalink" : "http://localhost:3000/theme-basics/",
+        "permalink" : "https://nnbee.github.io/theme-basics/",
         "slug" : {
           "value" : "theme-basics"
         },
@@ -376,7 +376,7 @@
       "timestamp" : 1742375671
     },
     "order" : 2,
-    "permalink" : "http://localhost:3000/theme-basics/add-a-new-category/",
+    "permalink" : "https://nnbee.github.io/theme-basics/add-a-new-category/",
     "slug" : {
       "value" : "theme-basics/add-a-new-category"
     },
@@ -416,7 +416,7 @@
           "timestamp" : 1743507365
         },
         "order" : 1,
-        "permalink" : "http://localhost:3000/theme-basics/",
+        "permalink" : "https://nnbee.github.io/theme-basics/",
         "slug" : {
           "value" : "theme-basics"
         },
@@ -517,7 +517,7 @@
       "timestamp" : 1742375385
     },
     "order" : 3,
-    "permalink" : "http://localhost:3000/theme-basics/add-a-new-guide/",
+    "permalink" : "https://nnbee.github.io/theme-basics/add-a-new-guide/",
     "slug" : {
       "value" : "theme-basics/add-a-new-guide"
     },
@@ -557,7 +557,7 @@
           "timestamp" : 1743507365
         },
         "order" : 1,
-        "permalink" : "http://localhost:3000/theme-basics/",
+        "permalink" : "https://nnbee.github.io/theme-basics/",
         "slug" : {
           "value" : "theme-basics"
         },
@@ -658,7 +658,7 @@
       "timestamp" : 1742378019
     },
     "order" : 4,
-    "permalink" : "http://localhost:3000/theme-basics/add-a-new-page/",
+    "permalink" : "https://nnbee.github.io/theme-basics/add-a-new-page/",
     "slug" : {
       "value" : "theme-basics/add-a-new-page"
     },
@@ -698,7 +698,7 @@
           "timestamp" : 1743507365
         },
         "order" : 1,
-        "permalink" : "http://localhost:3000/theme-basics/",
+        "permalink" : "https://nnbee.github.io/theme-basics/",
         "slug" : {
           "value" : "theme-basics"
         },
@@ -783,7 +783,7 @@
       "timestamp" : 1742379386
     },
     "order" : 5,
-    "permalink" : "http://localhost:3000/theme-basics/customize-the-footer/",
+    "permalink" : "https://nnbee.github.io/theme-basics/customize-the-footer/",
     "slug" : {
       "value" : "theme-basics/customize-the-footer"
     },
@@ -823,7 +823,7 @@
           "timestamp" : 1743507373
         },
         "order" : 3,
-        "permalink" : "http://localhost:3000/markdown-basics/",
+        "permalink" : "https://nnbee.github.io/markdown-basics/",
         "slug" : {
           "value" : "markdown-basics"
         },
@@ -932,7 +932,7 @@
       "timestamp" : 1742385222
     },
     "order" : 1,
-    "permalink" : "http://localhost:3000/markdown-basics/text-formatting-and-lists/",
+    "permalink" : "https://nnbee.github.io/markdown-basics/text-formatting-and-lists/",
     "slug" : {
       "value" : "markdown-basics/text-formatting-and-lists"
     },
@@ -972,7 +972,7 @@
           "timestamp" : 1743507373
         },
         "order" : 3,
-        "permalink" : "http://localhost:3000/markdown-basics/",
+        "permalink" : "https://nnbee.github.io/markdown-basics/",
         "slug" : {
           "value" : "markdown-basics"
         },
@@ -1097,7 +1097,7 @@
       "timestamp" : 1742385335
     },
     "order" : 2,
-    "permalink" : "http://localhost:3000/markdown-basics/links-images-and-tables/",
+    "permalink" : "https://nnbee.github.io/markdown-basics/links-images-and-tables/",
     "slug" : {
       "value" : "markdown-basics/links-images-and-tables"
     },
@@ -1137,7 +1137,7 @@
           "timestamp" : 1743507380
         },
         "order" : 4,
-        "permalink" : "http://localhost:3000/deployment/",
+        "permalink" : "https://nnbee.github.io/deployment/",
         "slug" : {
           "value" : "deployment"
         },
@@ -1145,7 +1145,7 @@
       }
     ],
     "contents" : {
-      "html" : "<h1>GitHub Deploy</h1><p>Toucan-based websites can be hosted for free using GitHub Pages. Follow these steps to set up your site.</p><hr><h2 id=\"creating-a-repository-for-your-site\">Creating a repository for your site</h2><p>You can either create a repository or choose an existing repository for your site.</p><p>If you want to create a GitHub Pages site for a repository where not all of the files in the repository are related to the site, you will be able to configure a publishing source for your site. For example, you can have a dedicated branch and folder to hold your site source files, or you can use a custom GitHub Actions workflow to build and deploy your site source files.</p><p>If the account that owns the repository uses GitHub Free or GitHub Free for organizations, the repository must be public.</p><p>If you want to create a site in an existing repository, skip to the <a href=\"http://localhost:3000/github-deploy#creating-your-site\">Creating your site</a> section.</p><ol><li>In the upper-right corner of any page, select <code>+</code> , then click <strong>New repository</strong>.<br><img src=\"http://localhost:3000/assets/deployment/github-pages/image1.png\" alt=\"image1\"></li><li>Use the Owner dropdown menu to select the account you want to own the repository.<br><img src=\"http://localhost:3000/assets/deployment/github-pages/image2.png\" alt=\"image2\"></li><li>Type a name for your repository and an optional description. If you’re creating a user or organization site, your repository must be named <code>user.github.io</code> or <code>organization.github.io</code>. If your user or organization name contains uppercase letters, you must lowercase the letters. For more information, see <a href=\"https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites\" target=\"_blank\">About GitHub Pages</a>.<br><img src=\"http://localhost:3000/assets/deployment/github-pages/image3.png\" alt=\"image3\"></li><li>For the repository visibility, choose <strong>public</strong>. For more information, see <a href=\"https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories#about-repository-visibility\" target=\"_blank\">About repositories</a>.</li><li>Select <strong>Initialize this repository with a README</strong>.</li><li>Click <strong>Create repository</strong>.</li></ol><hr><h2 id=\"add-content-to-the-repository\">Add content to the repository</h2><ol><li>Clone the Repository locally to your computer, if not already done:<pre><code>git clone https://github.com/your-username/your-repository.git\n</code></pre></li><li>Navigate to the local repository folder and copy the <code>src</code> folder with all the content.<br>Use the generator’s serve command:<pre><code>toucan generate\n</code></pre>After succesfull generation all the data is generated inside the <code>docs</code> folder by Toucan.</li><li>Push all the content to GitHub, add and commit files:<pre><code>git add .\ngit commit -m \"Add generated site content\"\ngit push origin main\n</code></pre></li></ol><hr><h2 id=\"creating-your-site\">Creating your site</h2><p>Before you can create your site, you must have a repository for your site on GitHub. If you’re not creating your site in an existing repository, see <a href=\"http://localhost:3000/github-deploy#creating-a-repository-for-your-site\">Creating a repository for your site</a>.</p><ol><li>On GitHub, navigate to your site’s repository.</li><li>Under your repository name, click <code>Settings</code>. If you cannot see the <code>Settings</code> tab, select the <code>...</code> dropdown menu, then click <code>Settings</code>.</li><li>In the <code>Code and automation</code> section of the sidebar, click <code>Pages</code>.</li><li>Under Source, leave the option <code>Deploy from a branch</code>.<br><img src=\"http://localhost:3000/assets/deployment/github-pages/image4.png\" alt=\"image4\"></li><li>Under Branch:<br><img src=\"http://localhost:3000/assets/deployment/github-pages/image5.png\" alt=\"image5\"><ul><li>Select the branch where you committed your files (e.g., main).</li><li>Choose the <strong>/docs</strong> folder as the source.</li><li>Click Save.</li></ul></li><li>Check the published site, GitHub will provide a public URL for your site, such as:<pre><code>https://your-username.github.io/my-github-page/\n</code></pre></li></ol><hr><h2 id=\"managing-a-custom-domain\">Managing a custom domain</h2><p>You can set up or update certain DNS records and your repository settings to point the default domain for your GitHub Pages site to a custom domain.</p><ol><li>On GitHub, navigate to your site’s repository.</li><li>Under your repository name, click <code>Settings</code>. If you cannot see the <code>Settings</code> tab, select the <code>...</code> dropdown menu, then click <code>Settings</code>.</li><li>In the <code>Code and automation</code> section of the sidebar, click <code>Pages</code>.</li><li>Under <code>Custom domain</code>, type your custom domain, then click Save. If you are publishing your site from a branch, this will create a commit that adds a <code>CNAME</code> file directly to the root of your source branch. If you are publishing your site with a custom GitHub Actions workflow, no <code>CNAME</code> file is created, so you need to create one manually (containing only a line of text with your custom domain).<br><img src=\"http://localhost:3000/assets/deployment/github-pages/image6.png\" alt=\"image6\"></li><li>Navigate to your DNS provider and create either an <code>ALIAS</code>, <code>ANAME</code>, or <code>A</code> record. You can also create <code>AAAA</code> records for IPv6 support. If you’re implementing IPv6 support, we highly recommend using an <code>A</code> record in addition to your <code>AAAA</code> record, due to slow adoption of IPv6 globally. For more information about how to create the correct record, see your DNS provider’s documentation.</li></ol>",
+      "html" : "<h1>GitHub Deploy</h1><p>Toucan-based websites can be hosted for free using GitHub Pages. Follow these steps to set up your site.</p><hr><h2 id=\"creating-a-repository-for-your-site\">Creating a repository for your site</h2><p>You can either create a repository or choose an existing repository for your site.</p><p>If you want to create a GitHub Pages site for a repository where not all of the files in the repository are related to the site, you will be able to configure a publishing source for your site. For example, you can have a dedicated branch and folder to hold your site source files, or you can use a custom GitHub Actions workflow to build and deploy your site source files.</p><p>If the account that owns the repository uses GitHub Free or GitHub Free for organizations, the repository must be public.</p><p>If you want to create a site in an existing repository, skip to the <a href=\"https://nnbee.github.io/github-deploy#creating-your-site\">Creating your site</a> section.</p><ol><li>In the upper-right corner of any page, select <code>+</code> , then click <strong>New repository</strong>.<br><img src=\"https://nnbee.github.io/assets/deployment/github-pages/image1.png\" alt=\"image1\"></li><li>Use the Owner dropdown menu to select the account you want to own the repository.<br><img src=\"https://nnbee.github.io/assets/deployment/github-pages/image2.png\" alt=\"image2\"></li><li>Type a name for your repository and an optional description. If you’re creating a user or organization site, your repository must be named <code>user.github.io</code> or <code>organization.github.io</code>. If your user or organization name contains uppercase letters, you must lowercase the letters. For more information, see <a href=\"https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites\" target=\"_blank\">About GitHub Pages</a>.<br><img src=\"https://nnbee.github.io/assets/deployment/github-pages/image3.png\" alt=\"image3\"></li><li>For the repository visibility, choose <strong>public</strong>. For more information, see <a href=\"https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories#about-repository-visibility\" target=\"_blank\">About repositories</a>.</li><li>Select <strong>Initialize this repository with a README</strong>.</li><li>Click <strong>Create repository</strong>.</li></ol><hr><h2 id=\"add-content-to-the-repository\">Add content to the repository</h2><ol><li>Clone the Repository locally to your computer, if not already done:<pre><code>git clone https://github.com/your-username/your-repository.git\n</code></pre></li><li>Navigate to the local repository folder and copy the <code>src</code> folder with all the content.<br>Use the generator’s serve command:<pre><code>toucan generate\n</code></pre>After succesfull generation all the data is generated inside the <code>docs</code> folder by Toucan.</li><li>Push all the content to GitHub, add and commit files:<pre><code>git add .\ngit commit -m \"Add generated site content\"\ngit push origin main\n</code></pre></li></ol><hr><h2 id=\"creating-your-site\">Creating your site</h2><p>Before you can create your site, you must have a repository for your site on GitHub. If you’re not creating your site in an existing repository, see <a href=\"https://nnbee.github.io/github-deploy#creating-a-repository-for-your-site\">Creating a repository for your site</a>.</p><ol><li>On GitHub, navigate to your site’s repository.</li><li>Under your repository name, click <code>Settings</code>. If you cannot see the <code>Settings</code> tab, select the <code>...</code> dropdown menu, then click <code>Settings</code>.</li><li>In the <code>Code and automation</code> section of the sidebar, click <code>Pages</code>.</li><li>Under Source, leave the option <code>Deploy from a branch</code>.<br><img src=\"https://nnbee.github.io/assets/deployment/github-pages/image4.png\" alt=\"image4\"></li><li>Under Branch:<br><img src=\"https://nnbee.github.io/assets/deployment/github-pages/image5.png\" alt=\"image5\"><ul><li>Select the branch where you committed your files (e.g., main).</li><li>Choose the <strong>/docs</strong> folder as the source.</li><li>Click Save.</li></ul></li><li>Check the published site, GitHub will provide a public URL for your site, such as:<pre><code>https://your-username.github.io/my-github-page/\n</code></pre></li></ol><hr><h2 id=\"managing-a-custom-domain\">Managing a custom domain</h2><p>You can set up or update certain DNS records and your repository settings to point the default domain for your GitHub Pages site to a custom domain.</p><ol><li>On GitHub, navigate to your site’s repository.</li><li>Under your repository name, click <code>Settings</code>. If you cannot see the <code>Settings</code> tab, select the <code>...</code> dropdown menu, then click <code>Settings</code>.</li><li>In the <code>Code and automation</code> section of the sidebar, click <code>Pages</code>.</li><li>Under <code>Custom domain</code>, type your custom domain, then click Save. If you are publishing your site from a branch, this will create a commit that adds a <code>CNAME</code> file directly to the root of your source branch. If you are publishing your site with a custom GitHub Actions workflow, no <code>CNAME</code> file is created, so you need to create one manually (containing only a line of text with your custom domain).<br><img src=\"https://nnbee.github.io/assets/deployment/github-pages/image6.png\" alt=\"image6\"></li><li>Navigate to your DNS provider and create either an <code>ALIAS</code>, <code>ANAME</code>, or <code>A</code> record. You can also create <code>AAAA</code> records for IPv6 support. If you’re implementing IPv6 support, we highly recommend using an <code>A</code> record in addition to your <code>AAAA</code> record, due to slow adoption of IPv6 globally. For more information about how to create the correct record, see your DNS provider’s documentation.</li></ol>",
       "outline" : [
         {
           "children" : [
@@ -1206,7 +1206,7 @@
       "timestamp" : 1742385390
     },
     "order" : 1,
-    "permalink" : "http://localhost:3000/deployment/github-pages/",
+    "permalink" : "https://nnbee.github.io/deployment/github-pages/",
     "slug" : {
       "value" : "deployment/github-pages"
     },
