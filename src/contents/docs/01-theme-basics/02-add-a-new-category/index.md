@@ -42,7 +42,7 @@ Categories are essential for organizing content in documentation websites. They 
 
 2. Add the following content to the `index.md` file:
 
-   ```markdown
+   ```
    ---
    type: category
    slug: my-new-category
