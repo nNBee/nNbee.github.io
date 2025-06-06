@@ -1,0 +1,1215 @@
+[
+  {
+    "category" : [
+      {
+        "contents" : {
+          "html" : "<h1>Getting Started</h1><hr>",
+          "outline" : [
+
+          ],
+          "readingTime" : 1
+        },
+        "description" : "",
+        "image" : null,
+        "lastUpdate" : {
+          "date" : {
+            "full" : "Tuesday, April 1, 2025",
+            "long" : "April 1, 2025",
+            "medium" : "Apr 1, 2025",
+            "short" : "4/1/25"
+          },
+          "formats" : {
+            "iso8601" : "2025-04-01T11:35:57.000Z",
+            "rss" : "Tue, 01 Apr 2025 11:35:57 +0000",
+            "sitemap" : "2025-04-01",
+            "year" : "2025"
+          },
+          "time" : {
+            "full" : "11:35:57 AM Greenwich Mean Time",
+            "long" : "11:35:57 AM GMT",
+            "medium" : "11:35:57 AM",
+            "short" : "11:35 AM"
+          },
+          "timestamp" : 1743507357
+        },
+        "order" : 1,
+        "permalink" : "http://localhost:3000/getting-started/",
+        "slug" : {
+          "value" : "getting-started"
+        },
+        "title" : "Getting Started"
+      }
+    ],
+    "contents" : {
+      "html" : "<h1>How to use</h1><h2 id=\"disclaimer\">Disclaimer</h2><blockquote><p>Toucan product is currently in its beta phase, which means you might encounter issues when attempting to customize the template with Toucan. While we’re actively refining and improving the experience, some features may be unstable or require manual adjustments. The T-Doc template is fully operational as it is! We appreciate your flexibility as we work towards a more polished version! 🚀</p></blockquote><hr><h2 id=\"introduction\">Introduction</h2><p>Thank you for purchasing T-Doc Theme! This theme is built on our very own, soaring Toucan static site generator, which uses Markdown for content creation and Mustache templates for layout and design. Together, these tools make it easy to add, edit, and manage your site’s content while maintaining a visually appealing and professional design. Mustache templates can be used not only for design but also for dynamic components.</p><p>With Markdown, you can write formatted text in plain-text files, which Toucan converts into HTML. Mustache templates allow you to customize the layout and presentation of your site with clean, readable syntax. Together, they give you full control over both the content and appearance of your site.</p><p>This guide will walk you through essential tasks, such as changing the site logo, adding new content (categories, guides), and customizing your site’s pages and footer. It also covers Markdown basics and provides instructions for deploying your site to GitHub Pages, ensuring a smooth publishing process.</p><hr><h2 id=\"change-content\">Change content</h2><p>Easily customize your site’s content by following these guides:</p><ul><li><a href=\"http://localhost:3000/theme-basics/change-the-site-logo\">Change site logo</a>: Learn how to replace or update images across your site.</li><li><a href=\"http://localhost:3000/theme-basics/add-a-new-category\">Add a new category</a>: Organize your guides by creating categories to improve navigation.</li><li><a href=\"http://localhost:3000/theme-basics/add-a-new-guide\">Add a new guide</a>: Create and publish new content using Markdown while associating it with a relevant category.</li><li><a href=\"http://localhost:3000/theme-basics/add-a-new-page\">Create a custom page in navigation</a>: Add static pages, like “About” or “Contact Us,” and include them in the navigation menu.</li><li><a href=\"http://localhost:3000/theme-basics/customize-the-footer\">Customize the footer</a>: Update your site’s footer with social links, copyright information, and custom text.</li></ul><p>Each guide is designed to provide step-by-step instructions to make the customization process seamless.</p><hr><h2 id=\"markdown-basics\">Markdown basics</h2><p>Markdown is an easy-to-use markup language that simplifies formatting. Learn the essentials through these guides:</p><ul><li><a href=\"http://localhost:3000/markdown-basics/text-formatting-and-lists\">Markdown basics part one</a>: Covers headings, bold/italic text and blockquotes.</li><li><a href=\"http://localhost:3000/markdown-basics/links-images-and-tables\">Markdown basics part two</a>: Explores advanced features like lists, links and images.</li></ul><p>Whether you’re new to Markdown or need a refresher, these guides will help you master its simplicity.</p><hr><h2 id=\"deploy-to-github\">Deploy to GitHub</h2><p>Publish your site live using GitHub Pages:</p><ul><li><a href=\"http://localhost:3000/deployment/github-pages\">Deploy to a GitHub Page</a>: Follow step-by-step instructions to deploy your docs folder to GitHub Pages and manage updates to your site easily.</li></ul><p>This guide ensures you can easily manage updates and publish changes to your site.</p><hr><h2 id=\"closing-notes\">Closing Notes</h2><p>Thank you again for choosing T-Doc Theme! If you have any questions or need further assistance, feel free to:</p><ul><li><a href=\"http://localhost:3000/contact\">Contact</a> us directly.</li><li>Check the <a href=\"https://toucansites.com/docs/\" target=\"_blank\">Toucan documentation</a> for detailed developer guidance.</li><li>Explore the examples provided in this guide.</li></ul><hr><h2 id=\"give-a-star-on-github\">Give a star on GitHub 🙏</h2><p>I’m sure you know how much ratings on GitHub mean to an online service provider. Giving us a star helps the project grow, and we appreciate your support if you like Toucan and the T-Doc theme. Thank you!</p><p><a href=\"https://github.com/toucansites/toucan\" target=\"_blank\">Toucan on GitHub</a></p>",
+      "outline" : [
+        {
+          "children" : [
+
+          ],
+          "fragment" : "disclaimer",
+          "level" : 2,
+          "text" : "Disclaimer"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "introduction",
+          "level" : 2,
+          "text" : "Introduction"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "change-content",
+          "level" : 2,
+          "text" : "Change content"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "markdown-basics",
+          "level" : 2,
+          "text" : "Markdown basics"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "deploy-to-github",
+          "level" : 2,
+          "text" : "Deploy to GitHub"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "closing-notes",
+          "level" : 2,
+          "text" : "Closing Notes"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "give-a-star-on-github",
+          "level" : 2,
+          "text" : "Give a star on GitHub 🙏"
+        }
+      ],
+      "readingTime" : 2
+    },
+    "description" : "Introduction to using the T-Doc theme.",
+    "image" : null,
+    "lastUpdate" : {
+      "date" : {
+        "full" : "Wednesday, March 19, 2025",
+        "long" : "March 19, 2025",
+        "medium" : "Mar 19, 2025",
+        "short" : "3/19/25"
+      },
+      "formats" : {
+        "iso8601" : "2025-03-19T12:10:19.000Z",
+        "rss" : "Wed, 19 Mar 2025 12:10:19 +0000",
+        "sitemap" : "2025-03-19",
+        "year" : "2025"
+      },
+      "time" : {
+        "full" : "12:10:19 PM Greenwich Mean Time",
+        "long" : "12:10:19 PM GMT",
+        "medium" : "12:10:19 PM",
+        "short" : "12:10 PM"
+      },
+      "timestamp" : 1742386219
+    },
+    "order" : 1,
+    "permalink" : "http://localhost:3000/getting-started/how-to-use/",
+    "slug" : {
+      "value" : "getting-started/how-to-use"
+    },
+    "title" : "How to use"
+  },
+  {
+    "category" : [
+      {
+        "contents" : {
+          "html" : "<h1>Theme basics</h1><hr><p>In this chapter, we will learn how to modify theme elements.<br>We will focus on customizing the theme for our project and adding new content.</p>",
+          "outline" : [
+
+          ],
+          "readingTime" : 1
+        },
+        "description" : "",
+        "image" : null,
+        "lastUpdate" : {
+          "date" : {
+            "full" : "Tuesday, April 1, 2025",
+            "long" : "April 1, 2025",
+            "medium" : "Apr 1, 2025",
+            "short" : "4/1/25"
+          },
+          "formats" : {
+            "iso8601" : "2025-04-01T11:36:05.000Z",
+            "rss" : "Tue, 01 Apr 2025 11:36:05 +0000",
+            "sitemap" : "2025-04-01",
+            "year" : "2025"
+          },
+          "time" : {
+            "full" : "11:36:05 AM Greenwich Mean Time",
+            "long" : "11:36:05 AM GMT",
+            "medium" : "11:36:05 AM",
+            "short" : "11:36 AM"
+          },
+          "timestamp" : 1743507365
+        },
+        "order" : 1,
+        "permalink" : "http://localhost:3000/theme-basics/",
+        "slug" : {
+          "value" : "theme-basics"
+        },
+        "title" : "Theme basics"
+      }
+    ],
+    "contents" : {
+      "html" : "<h1>Change the Site Logo</h1><p>The <strong>site logo</strong> is one of the key elements of your site’s branding. In <strong>T-Doc Theme</strong>, the logo is located in the <code>assets</code> folder and can be customized easily. Follow the steps below to update your site logo.</p><hr><h2 id=\"step-1-locate-the-logo-files\">Step 1: Locate the Logo Files</h2><ol><li>Navigate to the <strong>src/contents/assets/images/logos/</strong> directory in your project folder.<ul><li>By default, this folder contains two logo files::<ul><li><strong>logo.png</strong>: The primary logo used across the site.</li><li><strong>logo~dark.png</strong>: A variation of the logo used in dark mode (if your site supports it).</li></ul></li></ul></li></ol><hr><h2 id=\"step-2-prepare-your-custom-logos\">Step 2: Prepare Your Custom Logos</h2><ol><li><strong>Create Your Custom Logos</strong>:<ul><li>Use design software like <strong>Adobe Photoshop</strong>, <strong>Canva</strong>, or <strong>Figma</strong> to create your custom logos.</li><li>Ensure the your logos align with your brand’s design.</li></ul></li><li><strong>Recommended File Format</strong>:<ul><li>Use PNG format with a transparent background for best results.</li><li>If you prefer other formats (e.g., SVG or JPG), ensure that your site supports them.</li></ul></li></ol><hr><h2 id=\"step-3-replace-the-logo-files\">Step 3: Replace the Logo Files</h2><ol><li>Rename your custom logos to match the default logo file names:<ul><li><code>logo.png</code> (for the primary logo)</li><li><code>logo~dark.png</code> (for the dark mode logo)</li></ul></li><li>Copy your custom logo files into the <strong>src/contents/assets/images/logos/</strong> directory.<ul><li>Overwrite the existing <code>logo.png</code> and <code>logo~dark.png</code> files.</li></ul></li></ol><hr><h2 id=\"step-4-regenerate-the-site\">Step 4: Regenerate the Site</h2><p>After replacing the logo files, you need to regenerate your site for the changes to take effect:</p><ol><li>Open your terminal and navigate to your project directory.</li><li>Run the following command:<pre><code>toucan generate\n</code></pre></li><li>This command will process the updated assets and regenerate the site.</li></ol><hr><h2 id=\"step-5-preview-your-changes\">Step 5: Preview Your Changes</h2><ol><li>Start the local development server to preview the updated site:<pre><code>toucan serve\n</code></pre></li><li>Open your browser and navigate to <a href=\"http://localhost:3000\" target=\"_blank\">http://localhost:3000</a>.</li><li>Verify that:<ul><li>The new logo is displayed on the site.</li><li>The dark mode logo (if applicable) is displayed correctly.</li></ul></li></ol><hr><h2 id=\"step-6-troubleshooting\">Step 6: Troubleshooting</h2><p>If the updated logo does not appear, check the following:</p><ol><li><strong>File Naming</strong>: Ensure that your custom files are named exactly <code>logo.png</code> and <code>logo~dark.png</code>.</li><li><strong>File Path</strong>: Confirm the files are located in <strong>src/contents/assets/images/logos/</strong>.</li><li><strong>Cache</strong>: Clear your browser cache or use an incognito window to view the changes.</li></ol><hr><p>This guide ensures you have everything needed to update the logo in <strong>T-Doc Theme</strong>.</p>",
+      "outline" : [
+        {
+          "children" : [
+
+          ],
+          "fragment" : "step-1-locate-the-logo-files",
+          "level" : 2,
+          "text" : "Step 1: Locate the Logo Files"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "step-2-prepare-your-custom-logos",
+          "level" : 2,
+          "text" : "Step 2: Prepare Your Custom Logos"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "step-3-replace-the-logo-files",
+          "level" : 2,
+          "text" : "Step 3: Replace the Logo Files"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "step-4-regenerate-the-site",
+          "level" : 2,
+          "text" : "Step 4: Regenerate the Site"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "step-5-preview-your-changes",
+          "level" : 2,
+          "text" : "Step 5: Preview Your Changes"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "step-6-troubleshooting",
+          "level" : 2,
+          "text" : "Step 6: Troubleshooting"
+        }
+      ],
+      "readingTime" : 1
+    },
+    "description" : "This guide will walk you through how to change the site logo",
+    "image" : null,
+    "lastUpdate" : {
+      "date" : {
+        "full" : "Wednesday, March 19, 2025",
+        "long" : "March 19, 2025",
+        "medium" : "Mar 19, 2025",
+        "short" : "3/19/25"
+      },
+      "formats" : {
+        "iso8601" : "2025-03-19T09:14:25.000Z",
+        "rss" : "Wed, 19 Mar 2025 09:14:25 +0000",
+        "sitemap" : "2025-03-19",
+        "year" : "2025"
+      },
+      "time" : {
+        "full" : "9:14:25 AM Greenwich Mean Time",
+        "long" : "9:14:25 AM GMT",
+        "medium" : "9:14:25 AM",
+        "short" : "9:14 AM"
+      },
+      "timestamp" : 1742375665
+    },
+    "order" : 1,
+    "permalink" : "http://localhost:3000/theme-basics/change-the-site-logo/",
+    "slug" : {
+      "value" : "theme-basics/change-the-site-logo"
+    },
+    "title" : "Change the Site Logo"
+  },
+  {
+    "category" : [
+      {
+        "contents" : {
+          "html" : "<h1>Theme basics</h1><hr><p>In this chapter, we will learn how to modify theme elements.<br>We will focus on customizing the theme for our project and adding new content.</p>",
+          "outline" : [
+
+          ],
+          "readingTime" : 1
+        },
+        "description" : "",
+        "image" : null,
+        "lastUpdate" : {
+          "date" : {
+            "full" : "Tuesday, April 1, 2025",
+            "long" : "April 1, 2025",
+            "medium" : "Apr 1, 2025",
+            "short" : "4/1/25"
+          },
+          "formats" : {
+            "iso8601" : "2025-04-01T11:36:05.000Z",
+            "rss" : "Tue, 01 Apr 2025 11:36:05 +0000",
+            "sitemap" : "2025-04-01",
+            "year" : "2025"
+          },
+          "time" : {
+            "full" : "11:36:05 AM Greenwich Mean Time",
+            "long" : "11:36:05 AM GMT",
+            "medium" : "11:36:05 AM",
+            "short" : "11:36 AM"
+          },
+          "timestamp" : 1743507365
+        },
+        "order" : 1,
+        "permalink" : "http://localhost:3000/theme-basics/",
+        "slug" : {
+          "value" : "theme-basics"
+        },
+        "title" : "Theme basics"
+      }
+    ],
+    "contents" : {
+      "html" : "<h1>Add a New Category</h1><p>Categories are essential for organizing content in documentation websites. They help visitors find guides and enhance site navigation. Follow the steps below to add a new category in <strong>T-Doc Theme</strong>.</p><hr><h3 id=\"step-1-navigate-to-the-docs-directory\">Step 1: Navigate to the Docs Directory</h3><ol><li>Open your project directory.</li><li>Go to the <strong>src/contents/docs/</strong> folder. This folder contains all documentation content.</li></ol><hr><h3 id=\"step-2-create-a-new-category-directory\">Step 2: Create a New Category Directory</h3><ol><li>Create a new directory for your category:<ul><li>Name the folder based on the category name you want to add. For example:<pre><code class=\"language-bash\">mkdir src/contents/docs/my-new-category\n</code></pre></li><li>Use lowercase letters and hyphens for consistency in folder naming.</li></ul></li></ol><hr><h3 id=\"step-3-add-an-index.md-file\">Step 3: Add an <code>index.md</code> File</h3><ol><li>Inside the new directory (e.g., <code>src/contents/docs/my-new-category</code>), create a file named <code>index.md</code>.<ul><li>This file contains the metadata for the category.</li></ul></li><li>Add the following content to the <code>index.md</code> file:<pre><code class=\"language-markdown\">---\ntype: category\nslug: my-new-category\ntitle: My New Category\ndescription: 'A description for this category.'\norder: 1\n---\n</code></pre><strong>Fields Explanation</strong>:<ul><li><strong>type</strong>: Always set to <code>category</code>.</li><li><strong>slug</strong>: A unique, URL-friendly identifier for the category.</li><li><strong>title</strong>: The display name of the category.</li><li><strong>description</strong>: A short description of the category.</li><li><strong>order</strong>: Specifies the display order of categories, with lower numbers appearing first.</li></ul></li></ol><hr><h3 id=\"step-4-regenerate-the-site\">Step 4: Regenerate the Site</h3><p>Once the category is created, regenerate your site to apply the changes:</p><ol><li>Open your terminal and navigate to your project directory.</li><li>Run the following command:<pre><code>toucan generate\n</code></pre></li><li>This updates the site’s content and templates to incorporate the new category.</li></ol><hr><h3 id=\"step-5-verify-the-category\">Step 5: Verify the Category</h3><ol><li>Start the local development server:<pre><code>toucan serve\n</code></pre></li><li>Open your browser and go to <a href=\"http://localhost:3000\" target=\"_blank\">http://localhost:3000</a>.</li><li>Go to the <strong>Docs</strong> page to verify that the new category appears in the left-hand documentation menu.</li></ol><hr><h3 id=\"additional-notes\">Additional Notes</h3><ul><li><strong>Using Categories in Guides</strong>:<ul><li>To assign a category to a guide, include it in the <code>category</code> field of the guide’s <code>index.md</code> file. Example:<pre><code class=\"language-markdown\">category: my-new-category\n</code></pre></li></ul></li></ul><hr><p>This guide will help you easily add and manage categories in <strong>T-Doc Theme</strong>.</p>",
+      "outline" : [
+        {
+          "children" : [
+
+          ],
+          "fragment" : "step-1-navigate-to-the-docs-directory",
+          "level" : 3,
+          "text" : "Step 1: Navigate to the Docs Directory"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "step-2-create-a-new-category-directory",
+          "level" : 3,
+          "text" : "Step 2: Create a New Category Directory"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "step-3-add-an-index.md-file",
+          "level" : 3,
+          "text" : "Step 3: Add an index.md File"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "step-4-regenerate-the-site",
+          "level" : 3,
+          "text" : "Step 4: Regenerate the Site"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "step-5-verify-the-category",
+          "level" : 3,
+          "text" : "Step 5: Verify the Category"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "additional-notes",
+          "level" : 3,
+          "text" : "Additional Notes"
+        }
+      ],
+      "readingTime" : 1
+    },
+    "description" : "This guide will walk you through how to add a new category",
+    "image" : null,
+    "lastUpdate" : {
+      "date" : {
+        "full" : "Wednesday, March 19, 2025",
+        "long" : "March 19, 2025",
+        "medium" : "Mar 19, 2025",
+        "short" : "3/19/25"
+      },
+      "formats" : {
+        "iso8601" : "2025-03-19T09:14:31.000Z",
+        "rss" : "Wed, 19 Mar 2025 09:14:31 +0000",
+        "sitemap" : "2025-03-19",
+        "year" : "2025"
+      },
+      "time" : {
+        "full" : "9:14:31 AM Greenwich Mean Time",
+        "long" : "9:14:31 AM GMT",
+        "medium" : "9:14:31 AM",
+        "short" : "9:14 AM"
+      },
+      "timestamp" : 1742375671
+    },
+    "order" : 2,
+    "permalink" : "http://localhost:3000/theme-basics/add-a-new-category/",
+    "slug" : {
+      "value" : "theme-basics/add-a-new-category"
+    },
+    "title" : "Add a new category"
+  },
+  {
+    "category" : [
+      {
+        "contents" : {
+          "html" : "<h1>Theme basics</h1><hr><p>In this chapter, we will learn how to modify theme elements.<br>We will focus on customizing the theme for our project and adding new content.</p>",
+          "outline" : [
+
+          ],
+          "readingTime" : 1
+        },
+        "description" : "",
+        "image" : null,
+        "lastUpdate" : {
+          "date" : {
+            "full" : "Tuesday, April 1, 2025",
+            "long" : "April 1, 2025",
+            "medium" : "Apr 1, 2025",
+            "short" : "4/1/25"
+          },
+          "formats" : {
+            "iso8601" : "2025-04-01T11:36:05.000Z",
+            "rss" : "Tue, 01 Apr 2025 11:36:05 +0000",
+            "sitemap" : "2025-04-01",
+            "year" : "2025"
+          },
+          "time" : {
+            "full" : "11:36:05 AM Greenwich Mean Time",
+            "long" : "11:36:05 AM GMT",
+            "medium" : "11:36:05 AM",
+            "short" : "11:36 AM"
+          },
+          "timestamp" : 1743507365
+        },
+        "order" : 1,
+        "permalink" : "http://localhost:3000/theme-basics/",
+        "slug" : {
+          "value" : "theme-basics"
+        },
+        "title" : "Theme basics"
+      }
+    ],
+    "contents" : {
+      "html" : "<h1>Add a New Guide</h1><p>Adding a new guide is essential to keeping your site updated with fresh content. Follow these steps to create and publish a new guide in <strong>T-Doc Theme</strong>.</p><hr><h3 id=\"step-1-navigate-to-the-proper-category-directory\">Step 1: Navigate to the Proper Category Directory</h3><ol><li>Open your project directory.</li><li>Select the category for your guide, and go to the <strong>src/contents/docs/my-category</strong> folder. This folder contains all guides with the same category.</li></ol><hr><h3 id=\"step-2-create-a-new-guide-directory\">Step 2: Create a New Guide Directory</h3><ol><li>Create a new directory for your guide:<ul><li>Name the folder based on the guide title or a short identifier. For example:<pre><code>mkdir src/contents/docs/my-category/my-first-guide\n</code></pre></li><li>Use lowercase letters and hyphens to maintain consistency in folder naming.</li></ul></li></ol><hr><h3 id=\"step-3-add-an-index.md-file\">Step 3: Add an <code>index.md</code> File</h3><ol><li>Inside the new directory (e.g., <code>src/contents/docs/my-category/my-first-guide</code>), create a file named <code>index.md</code>.<ul><li>This file contains the metadata and content for the guide.</li></ul></li><li>Add the following content to the <code>index.md</code> file:<pre><code>---\ntype: guide\ncategory: my-category\nslug: my-category/my-first-guide\ntitle: \"My First Guide\"\ndescription: \"This is an introduction to my first guide.\"\norder: 3\n---\n</code></pre><strong>Fields Explanation</strong>:<ul><li><strong>type</strong>: Always set to <code>guide</code>.</li><li><strong>category</strong>: Defines the category under which this guide is grouped.</li><li><strong>slug</strong>: A unique, URL-friendly identifier for the guide. It determines the guide’s URL path and should use lowercase letters and hyphens.</li><li><strong>title</strong>: The title of the guide as it will appear on the site.</li><li><strong>description</strong>: A brief description or summary of the guide.</li><li><strong>order</strong>: Specifies the guide’s display order within the category, with lower numbers appearing first.</li></ul></li></ol><hr><h3 id=\"step-4-write-the-guide-content\">Step 4: Write the Guide Content</h3><ol><li>Below the metadata in <code>index.md</code>, write the full content of your guide using Markdown. Example:<pre><code>---\ntype: guide\ncategory: my-category\nslug: my-category/my-first-guide\ntitle: \"My First Guide\"\ndescription: \"This is an introduction to my first guide.\"\norder:\n---\n\n## Welcome to My First Guide\n\nThis is the content of my first guide. It’s written in Markdown, so you can easily format headings, lists, images, and more.\n\n### Here’s a List\n- Item 1\n- Item 2\n- Item 3\n</code></pre></li></ol><hr><h3 id=\"step-5-add-images-optional\">Step 5: Add Images (Optional)</h3><ol><li>If your guide includes images, create an <strong>assets</strong> folder inside the guide directory:<pre><code>mkdir src/contents/docs/my-category/my-first-guide/assets\n</code></pre></li><li>Place your images in the <strong>assets</strong> folder and reference them in your Markdown content. Example:<pre><code class=\"language-markdown\">![My Image](./assets/my-image.jpg)\n</code></pre></li></ol><hr><h3 id=\"step-6-regenerate-the-site\">Step 6: Regenerate the Site</h3><p>Once the guide is created, regenerate your site to apply the changes:</p><ol><li>Open your terminal and navigate to your project directory.</li><li>Run the following command:<pre><code>toucan generate\n</code></pre></li><li>This updates the site’s content and templates to reflect the new guide.</li></ol><hr><h3 id=\"step-7-verify-the-guide\">Step 7: Verify the Guide</h3><ol><li>Start the local development server:<pre><code>toucan serve\n</code></pre></li><li>Open your browser and go to <a href=\"http://localhost:3000\" target=\"_blank\">http://localhost:3000</a>.</li><li>Go to the <strong>Docs</strong> page to verify that the new guide appears under the correct category.</li></ol><hr><h3 id=\"additional-notes\">Additional Notes</h3><ul><li><strong>Editing Metadata</strong>:<ul><li>You can edit the <code>index.md</code> file at any time to update the guide’s metadata or content.</li></ul></li></ul><hr><p>This guide will help you easily create and manage guides in <strong>Try-O-Theme</strong>.</p>",
+      "outline" : [
+        {
+          "children" : [
+
+          ],
+          "fragment" : "step-1-navigate-to-the-proper-category-directory",
+          "level" : 3,
+          "text" : "Step 1: Navigate to the Proper Category Directory"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "step-2-create-a-new-guide-directory",
+          "level" : 3,
+          "text" : "Step 2: Create a New Guide Directory"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "step-3-add-an-index.md-file",
+          "level" : 3,
+          "text" : "Step 3: Add an index.md File"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "step-4-write-the-guide-content",
+          "level" : 3,
+          "text" : "Step 4: Write the Guide Content"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "step-5-add-images-optional",
+          "level" : 3,
+          "text" : "Step 5: Add Images (Optional)"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "step-6-regenerate-the-site",
+          "level" : 3,
+          "text" : "Step 6: Regenerate the Site"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "step-7-verify-the-guide",
+          "level" : 3,
+          "text" : "Step 7: Verify the Guide"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "additional-notes",
+          "level" : 3,
+          "text" : "Additional Notes"
+        }
+      ],
+      "readingTime" : 1
+    },
+    "description" : "This guide will walk you through how to add a new guide.",
+    "image" : null,
+    "lastUpdate" : {
+      "date" : {
+        "full" : "Wednesday, March 19, 2025",
+        "long" : "March 19, 2025",
+        "medium" : "Mar 19, 2025",
+        "short" : "3/19/25"
+      },
+      "formats" : {
+        "iso8601" : "2025-03-19T09:09:45.000Z",
+        "rss" : "Wed, 19 Mar 2025 09:09:45 +0000",
+        "sitemap" : "2025-03-19",
+        "year" : "2025"
+      },
+      "time" : {
+        "full" : "9:09:45 AM Greenwich Mean Time",
+        "long" : "9:09:45 AM GMT",
+        "medium" : "9:09:45 AM",
+        "short" : "9:09 AM"
+      },
+      "timestamp" : 1742375385
+    },
+    "order" : 3,
+    "permalink" : "http://localhost:3000/theme-basics/add-a-new-guide/",
+    "slug" : {
+      "value" : "theme-basics/add-a-new-guide"
+    },
+    "title" : "Add a new guide"
+  },
+  {
+    "category" : [
+      {
+        "contents" : {
+          "html" : "<h1>Theme basics</h1><hr><p>In this chapter, we will learn how to modify theme elements.<br>We will focus on customizing the theme for our project and adding new content.</p>",
+          "outline" : [
+
+          ],
+          "readingTime" : 1
+        },
+        "description" : "",
+        "image" : null,
+        "lastUpdate" : {
+          "date" : {
+            "full" : "Tuesday, April 1, 2025",
+            "long" : "April 1, 2025",
+            "medium" : "Apr 1, 2025",
+            "short" : "4/1/25"
+          },
+          "formats" : {
+            "iso8601" : "2025-04-01T11:36:05.000Z",
+            "rss" : "Tue, 01 Apr 2025 11:36:05 +0000",
+            "sitemap" : "2025-04-01",
+            "year" : "2025"
+          },
+          "time" : {
+            "full" : "11:36:05 AM Greenwich Mean Time",
+            "long" : "11:36:05 AM GMT",
+            "medium" : "11:36:05 AM",
+            "short" : "11:36 AM"
+          },
+          "timestamp" : 1743507365
+        },
+        "order" : 1,
+        "permalink" : "http://localhost:3000/theme-basics/",
+        "slug" : {
+          "value" : "theme-basics"
+        },
+        "title" : "Theme basics"
+      }
+    ],
+    "contents" : {
+      "html" : "<h1>Create a Custom Page in Navigation</h1><p>Adding a custom page is a great way to enhance your site’s functionality by including pages like ‘Contact Us,’ ‘FAQ,’ or other static content. Follow the steps below to create a custom page and add it to the navigation menu in <strong>T-Doc Theme</strong>.</p><hr><h3 id=\"step-1-edit-the-navigation-menu\">Step 1: Edit the Navigation Menu</h3><ol><li>Open the <strong>src/contents/index.yaml</strong> file in your project directory.<ul><li>This file <code>navigation</code> section manages the navigation menu displayed on your site.</li></ul></li><li>Add a new entry under the <code>navigation</code> section for your custom page. Example:</li></ol><pre><code class=\"language-yaml\">navigation:\n  - label: 'Docs'\n    url: '/docs/'\n  - label: 'About'\n    url: '/about/'\n  - label: 'Contact'\n    url: '/contact/'\n  - label: FAQ\n    url: '/faq/'\n</code></pre><p><strong>Fields Explanation</strong>:</p><ul><li><strong>label</strong>: The text displayed in the navigation menu.</li><li><strong>url</strong>: The relative URL of the custom page.</li></ul><hr><h3 id=\"step-2-create-the-custom-page-directory\">Step 2: Create the Custom Page Directory</h3><ol><li>Navigate to the <strong>src/contents/</strong> folder.</li><li>Create a new directory for your custom page. For example:</li></ol><pre><code class=\"language-bash\">mkdir src/contents/faq\n</code></pre><hr><h3 id=\"step-3-add-an-index.md-file\">Step 3: Add an <code>index.md</code> File</h3><ol><li>Inside the new directory (e.g., <code>src/contents/faq</code>), create a file named <code>index.md</code>.<ul><li>This file contains the metadata and content for the custom page.</li></ul></li><li>Add the following content to the <code>index.md</code> file:<pre><code>---\ntitle: \"FAQ\"\ndescription: \"Frequently asked questions\"\ntemplate: pages.default_page\n---\n</code></pre><strong>Fields Explanation</strong>:<ul><li><strong>title</strong>: The title of the custom page.</li><li><strong>description</strong>: A short description or summary of the page’s content.</li><li><strong>template</strong>: The Mustache template used to render the page.</li></ul></li></ol><hr><h3 id=\"step-4-add-content-to-the-page\">Step 4: Add Content to the Page</h3><p>Below the metadata in <code>index.md</code>, write the content of your custom page using Markdown. Example:</p><pre><code>## FAQ\n\n### How do I reset my password?\nIf you forgot your password, you can reset it by clicking the \"Forgot Password\" link on the login page.\n\n### How can I contact support?\nYou can reach our support team at [support@example.com](mailto:support@example.com).\n</code></pre><hr><h3 id=\"step-5-create-a-new-template-optional\">Step 5: Create a New Template (Optional)</h3><ol><li>If the default template <code>pages.default_page</code> does not fit your needs, create a custom Mustache template:<ul><li>Navigate to <strong>src/themes/default/templates/pages/</strong>.</li><li>Create a new Mustache file, e.g., <code>faq.mustache</code>.</li></ul></li><li>Update the <code>template</code> field in the custom page’s metadata to use your new template:<pre><code>template: pages.faq\n</code></pre></li></ol><hr><h3 id=\"step-6-regenerate-the-site\">Step 6: Regenerate the Site</h3><p>Once the custom page is created, regenerate the site to apply the changes:</p><ol><li>Open your terminal and navigate to your project directory.</li><li>Run the following command:<pre><code>toucan generate\n</code></pre></li><li>This updates the site’s content and refreshes the navigation menu.</li></ol><hr><h3 id=\"step-7-verify-the-custom-page\">Step 7: Verify the Custom Page</h3><ol><li>Start the local development server:<pre><code>toucan serve\n</code></pre></li><li>Open your browser and go to <a href=\"http://localhost:3000/faq/\" target=\"_blank\">http://localhost:3000/faq/</a>.</li><li>Ensure that the custom page is displayed correctly and can be accessed from the navigation menu.</li></ol><hr><h3 id=\"additional-notes\">Additional Notes</h3><ul><li><strong>Updating Content</strong>:<ul><li>You can edit the <code>index.md</code> file at any time to update the content of the custom page.</li></ul></li><li><strong>Styling</strong>:<ul><li>Update the relevant Mustache templates and CSS files in the <strong>themes/default/</strong> directory to customize the page’s look.</li></ul></li></ul><hr><p>This guide will help you create and manage custom pages easily in <strong>T-Doc Theme</strong>.</p>",
+      "outline" : [
+        {
+          "children" : [
+
+          ],
+          "fragment" : "step-1-edit-the-navigation-menu",
+          "level" : 3,
+          "text" : "Step 1: Edit the Navigation Menu"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "step-2-create-the-custom-page-directory",
+          "level" : 3,
+          "text" : "Step 2: Create the Custom Page Directory"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "step-3-add-an-index.md-file",
+          "level" : 3,
+          "text" : "Step 3: Add an index.md File"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "step-4-add-content-to-the-page",
+          "level" : 3,
+          "text" : "Step 4: Add Content to the Page"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "step-5-create-a-new-template-optional",
+          "level" : 3,
+          "text" : "Step 5: Create a New Template (Optional)"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "step-6-regenerate-the-site",
+          "level" : 3,
+          "text" : "Step 6: Regenerate the Site"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "step-7-verify-the-custom-page",
+          "level" : 3,
+          "text" : "Step 7: Verify the Custom Page"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "additional-notes",
+          "level" : 3,
+          "text" : "Additional Notes"
+        }
+      ],
+      "readingTime" : 1
+    },
+    "description" : "This guide will walk you through how to create a custom page and add it to the navigation menu",
+    "image" : null,
+    "lastUpdate" : {
+      "date" : {
+        "full" : "Wednesday, March 19, 2025",
+        "long" : "March 19, 2025",
+        "medium" : "Mar 19, 2025",
+        "short" : "3/19/25"
+      },
+      "formats" : {
+        "iso8601" : "2025-03-19T09:53:39.000Z",
+        "rss" : "Wed, 19 Mar 2025 09:53:39 +0000",
+        "sitemap" : "2025-03-19",
+        "year" : "2025"
+      },
+      "time" : {
+        "full" : "9:53:39 AM Greenwich Mean Time",
+        "long" : "9:53:39 AM GMT",
+        "medium" : "9:53:39 AM",
+        "short" : "9:53 AM"
+      },
+      "timestamp" : 1742378019
+    },
+    "order" : 4,
+    "permalink" : "http://localhost:3000/theme-basics/add-a-new-page/",
+    "slug" : {
+      "value" : "theme-basics/add-a-new-page"
+    },
+    "title" : "Add a custom page"
+  },
+  {
+    "category" : [
+      {
+        "contents" : {
+          "html" : "<h1>Theme basics</h1><hr><p>In this chapter, we will learn how to modify theme elements.<br>We will focus on customizing the theme for our project and adding new content.</p>",
+          "outline" : [
+
+          ],
+          "readingTime" : 1
+        },
+        "description" : "",
+        "image" : null,
+        "lastUpdate" : {
+          "date" : {
+            "full" : "Tuesday, April 1, 2025",
+            "long" : "April 1, 2025",
+            "medium" : "Apr 1, 2025",
+            "short" : "4/1/25"
+          },
+          "formats" : {
+            "iso8601" : "2025-04-01T11:36:05.000Z",
+            "rss" : "Tue, 01 Apr 2025 11:36:05 +0000",
+            "sitemap" : "2025-04-01",
+            "year" : "2025"
+          },
+          "time" : {
+            "full" : "11:36:05 AM Greenwich Mean Time",
+            "long" : "11:36:05 AM GMT",
+            "medium" : "11:36:05 AM",
+            "short" : "11:36 AM"
+          },
+          "timestamp" : 1743507365
+        },
+        "order" : 1,
+        "permalink" : "http://localhost:3000/theme-basics/",
+        "slug" : {
+          "value" : "theme-basics"
+        },
+        "title" : "Theme basics"
+      }
+    ],
+    "contents" : {
+      "html" : "<h1>Customize the Footer</h1><p>The footer is an important section of your website, often used to display additional navigation, social media links, or copyright information. Follow these steps to customize the footer in <strong>T-Doc Theme</strong>.</p><hr><h3 id=\"step-1-edit-the-footer-content\">Step 1: Edit the Footer Content</h3><ol><li>Open the <strong>src/contents/index.yaml</strong> file in your project directory.<ul><li>This file contains the global configuration for your site, including footer content.</li></ul></li><li>Locate the <code>footer-socials</code> section. Example:</li></ol><pre><code class=\"language-yaml\">footer-socials:\n  - title: 'Instagram'\n    url: 'https://instagram.com/'\n  - title: 'Facebook'\n    url: 'https://facebook.com/'\n  - title: 'YouTube'\n    url: 'https://youtube.com/'\n  - title: 'TikTok'\n    url: 'https://tiktok.com/'\n  - title: 'LinkedIn'\n    url: 'https://linkedin.com/'\n  - title: 'X'\n    url: 'https://x.com/'\n</code></pre><ol><li>Add, update, or remove social media links as needed:<ul><li><strong>title</strong>: The name of the social platform or link.</li><li><strong>url</strong>: The URL for the social link.</li><li><strong>icon</strong> (optional): You can use a one-line SVG tag.</li></ul></li></ol><hr><h3 id=\"step-2-add-custom-links-or-text\">Step 2: Add Custom Links or Text</h3><ol><li>To include additional text (e.g., copyright notices or custom links), locate or add a section like this in <strong>index.yaml</strong>:<pre><code class=\"language-yaml\">footer-links:\n  - label: 'Privacy Policy'\n    url: '/privacy-policy/'\n  - label: 'Terms of Service'\n    url: '/terms-of-service/'\n</code></pre></li><li>Modify the content to fit your requirements:<ul><li><strong>label</strong>: The text for the footer link.</li><li><strong>url</strong>: The relative or absolute URL for the link.</li></ul></li></ol><hr><h3 id=\"step-3-update-footer-styles-optional\">Step 3: Update Footer Styles (Optional)</h3><ol><li>Navigate to the <strong>src/themes/default/templates/partials/</strong> directory. The footer layout is defined in the Mustache file: <code>footer.mustache</code>.</li><li>Edit the <code>footer.mustache</code> to adjust the structure, style, or additional content. Example:<pre><code class=\"language-html\">&lt;footer&gt;\n  &lt;div class=\"footer-links\"&gt;\n    {{#footer-links}}\n    &lt;a href=\"{{url}}\"&gt;{{label}}&lt;/a&gt;\n    {{/footer-links}}\n  &lt;/div&gt;\n  &lt;div class=\"footer-socials\"&gt;\n    {{#footer-socials}}\n    &lt;a href=\"{{url}}\" target=\"_blank\"&gt;{{title}}&lt;/a&gt;\n    {{/footer-socials}}\n  &lt;/div&gt;\n&lt;/footer&gt;\n</code></pre></li><li>Modify the CSS styles in <strong>src/themes/default/assets/css/footer.css</strong> to match your design preferences.</li></ol><hr><h3 id=\"step-4-regenerate-the-site\">Step 4: Regenerate the Site</h3><p>After updating the footer content or styles, regenerate the site to apply the changes:</p><ol><li>Open your terminal and navigate to your project directory.</li><li>Run the following command:<pre><code>toucan generate\n</code></pre></li></ol><hr><h3 id=\"step-5-verify-the-footer-changes\">Step 5: Verify the Footer Changes</h3><ol><li>Start the local development server:<pre><code>toucan serve\n</code></pre></li><li>Open your browser and go to <a href=\"http://localhost:3000\" target=\"_blank\">http://localhost:3000</a>.</li><li>Scroll to the footer section to verify that the updates have been applied.</li></ol><hr><h3 id=\"additional-notes\">Additional Notes</h3><ul><li><strong>Dynamic Content</strong>:<ul><li>You can dynamically add more social or custom links and other custom elements by expanding the <code>index.yaml</code> file.</li></ul></li><li><strong>Footer Layout</strong>:<ul><li>For advanced customization, create a new footer template or modify the existing <code>footer.mustache</code> file, or copy and adjust files from the default theme.</li></ul></li></ul><hr><p>This guide ensures you can easily customize and manage your footer content in <strong>T-Doc Theme</strong>.</p>",
+      "outline" : [
+        {
+          "children" : [
+
+          ],
+          "fragment" : "step-1-edit-the-footer-content",
+          "level" : 3,
+          "text" : "Step 1: Edit the Footer Content"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "step-2-add-custom-links-or-text",
+          "level" : 3,
+          "text" : "Step 2: Add Custom Links or Text"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "step-3-update-footer-styles-optional",
+          "level" : 3,
+          "text" : "Step 3: Update Footer Styles (Optional)"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "step-4-regenerate-the-site",
+          "level" : 3,
+          "text" : "Step 4: Regenerate the Site"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "step-5-verify-the-footer-changes",
+          "level" : 3,
+          "text" : "Step 5: Verify the Footer Changes"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "additional-notes",
+          "level" : 3,
+          "text" : "Additional Notes"
+        }
+      ],
+      "readingTime" : 1
+    },
+    "description" : "This guide will walk you through customizing the footer.",
+    "image" : null,
+    "lastUpdate" : {
+      "date" : {
+        "full" : "Wednesday, March 19, 2025",
+        "long" : "March 19, 2025",
+        "medium" : "Mar 19, 2025",
+        "short" : "3/19/25"
+      },
+      "formats" : {
+        "iso8601" : "2025-03-19T10:16:26.000Z",
+        "rss" : "Wed, 19 Mar 2025 10:16:26 +0000",
+        "sitemap" : "2025-03-19",
+        "year" : "2025"
+      },
+      "time" : {
+        "full" : "10:16:26 AM Greenwich Mean Time",
+        "long" : "10:16:26 AM GMT",
+        "medium" : "10:16:26 AM",
+        "short" : "10:16 AM"
+      },
+      "timestamp" : 1742379386
+    },
+    "order" : 5,
+    "permalink" : "http://localhost:3000/theme-basics/customize-the-footer/",
+    "slug" : {
+      "value" : "theme-basics/customize-the-footer"
+    },
+    "title" : "Customize the footer"
+  },
+  {
+    "category" : [
+      {
+        "contents" : {
+          "html" : "<h1>Markdown Basics</h1><hr><p>In this chapter, we will learn the basics of Markdown syntax.<br>We will focus on text formatting, creating lists, handling links, images, and tables.</p>",
+          "outline" : [
+
+          ],
+          "readingTime" : 1
+        },
+        "description" : "",
+        "image" : null,
+        "lastUpdate" : {
+          "date" : {
+            "full" : "Tuesday, April 1, 2025",
+            "long" : "April 1, 2025",
+            "medium" : "Apr 1, 2025",
+            "short" : "4/1/25"
+          },
+          "formats" : {
+            "iso8601" : "2025-04-01T11:36:13.000Z",
+            "rss" : "Tue, 01 Apr 2025 11:36:13 +0000",
+            "sitemap" : "2025-04-01",
+            "year" : "2025"
+          },
+          "time" : {
+            "full" : "11:36:13 AM Greenwich Mean Time",
+            "long" : "11:36:13 AM GMT",
+            "medium" : "11:36:13 AM",
+            "short" : "11:36 AM"
+          },
+          "timestamp" : 1743507373
+        },
+        "order" : 3,
+        "permalink" : "http://localhost:3000/markdown-basics/",
+        "slug" : {
+          "value" : "markdown-basics"
+        },
+        "title" : "Markdown basics"
+      }
+    ],
+    "contents" : {
+      "html" : "<h1>Text Formatting and Lists</h1><p>Markdown is a lightweight markup language for formatting plain text. Here’s how to use its essential syntax.</p><hr><h2 id=\"text-formatting\">Text Formatting</h2><hr><h3 id=\"headings\">Headings</h3><p>Use <code>#</code> for headings. The number of <code>#</code> symbols determines the level:</p><pre><code class=\"language-markdown\"># Heading 1\n\n## Heading 2\n\n### Heading 3\n</code></pre><hr><h3 id=\"bold-and-italics\">Bold and Italics</h3><pre><code>Bold: **text** or __text__\nItalic: *text* or _text_\nBold and Italic: ***text*** or ___text___\n</code></pre><hr><h3 id=\"blockquotes\">Blockquotes</h3><p>Use <code>></code> to create blockquotes:</p><pre><code>&gt; This is a blockquote.\n</code></pre><hr><h2 id=\"lists\">Lists</h2><h3 id=\"unordered-lists\">Unordered Lists</h3><p>Use <code>-</code> or <code>*</code> to create unordered lists:</p><pre><code>- Item 1\n- Item 2\n  - Subitem 2.1\n</code></pre><hr><h3 id=\"ordered-lists\">Ordered Lists</h3><p>Use numbers followed by a dot to create ordered lists:</p><pre><code>1. Item 1\n2. Item 2\n   1. Subitem 2.1\n   - Subitem 2.2\n</code></pre><hr><h3 id=\"nesting\">Nesting</h3><p>You can nest ordered and unordered lists together:</p><pre><code>1. Ordered item\n   - Subitem 1\n   2. Ordered subitem\n</code></pre><hr><h2 id=\"conclusion\">Conclusion</h2><p>These formatting and list options help structure your content effectively. In the next guide, we’ll explore advanced features like links, images, and tables!</p>",
+      "outline" : [
+        {
+          "children" : [
+
+          ],
+          "fragment" : "text-formatting",
+          "level" : 2,
+          "text" : "Text Formatting"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "headings",
+          "level" : 3,
+          "text" : "Headings"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "bold-and-italics",
+          "level" : 3,
+          "text" : "Bold and Italics"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "blockquotes",
+          "level" : 3,
+          "text" : "Blockquotes"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "lists",
+          "level" : 2,
+          "text" : "Lists"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "unordered-lists",
+          "level" : 3,
+          "text" : "Unordered Lists"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "ordered-lists",
+          "level" : 3,
+          "text" : "Ordered Lists"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "nesting",
+          "level" : 3,
+          "text" : "Nesting"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "conclusion",
+          "level" : 2,
+          "text" : "Conclusion"
+        }
+      ],
+      "readingTime" : 1
+    },
+    "description" : "This guide covers the basics of Markdown text formatting and lists.",
+    "image" : null,
+    "lastUpdate" : {
+      "date" : {
+        "full" : "Wednesday, March 19, 2025",
+        "long" : "March 19, 2025",
+        "medium" : "Mar 19, 2025",
+        "short" : "3/19/25"
+      },
+      "formats" : {
+        "iso8601" : "2025-03-19T11:53:42.000Z",
+        "rss" : "Wed, 19 Mar 2025 11:53:42 +0000",
+        "sitemap" : "2025-03-19",
+        "year" : "2025"
+      },
+      "time" : {
+        "full" : "11:53:42 AM Greenwich Mean Time",
+        "long" : "11:53:42 AM GMT",
+        "medium" : "11:53:42 AM",
+        "short" : "11:53 AM"
+      },
+      "timestamp" : 1742385222
+    },
+    "order" : 1,
+    "permalink" : "http://localhost:3000/markdown-basics/text-formatting-and-lists/",
+    "slug" : {
+      "value" : "markdown-basics/text-formatting-and-lists"
+    },
+    "title" : "Text formatting and lists"
+  },
+  {
+    "category" : [
+      {
+        "contents" : {
+          "html" : "<h1>Markdown Basics</h1><hr><p>In this chapter, we will learn the basics of Markdown syntax.<br>We will focus on text formatting, creating lists, handling links, images, and tables.</p>",
+          "outline" : [
+
+          ],
+          "readingTime" : 1
+        },
+        "description" : "",
+        "image" : null,
+        "lastUpdate" : {
+          "date" : {
+            "full" : "Tuesday, April 1, 2025",
+            "long" : "April 1, 2025",
+            "medium" : "Apr 1, 2025",
+            "short" : "4/1/25"
+          },
+          "formats" : {
+            "iso8601" : "2025-04-01T11:36:13.000Z",
+            "rss" : "Tue, 01 Apr 2025 11:36:13 +0000",
+            "sitemap" : "2025-04-01",
+            "year" : "2025"
+          },
+          "time" : {
+            "full" : "11:36:13 AM Greenwich Mean Time",
+            "long" : "11:36:13 AM GMT",
+            "medium" : "11:36:13 AM",
+            "short" : "11:36 AM"
+          },
+          "timestamp" : 1743507373
+        },
+        "order" : 3,
+        "permalink" : "http://localhost:3000/markdown-basics/",
+        "slug" : {
+          "value" : "markdown-basics"
+        },
+        "title" : "Markdown basics"
+      }
+    ],
+    "contents" : {
+      "html" : "<h1>Links, Images, and Tables</h1><p>Markdown provides a simple syntax for adding links, images, and tables to your documents.</p><hr><h2 id=\"links\">Links</h2><h3 id=\"basic-links\">Basic Links</h3><p>Use square brackets <code>[ ]</code> for the link text and parentheses <code>( )</code> to enclose the URL:</p><pre><code>[Link Text](https://example.com)\n</code></pre><hr><h3 id=\"links-with-titles\">Links with Titles</h3><p>Add a title by including text in quotes after the URL:</p><pre><code>[Link Text](https://example.com \"Optional Title\")\n</code></pre><hr><h2 id=\"images\">Images</h2><h3 id=\"basic-images\">Basic Images</h3><p>Similar to links, but with an exclamation mark <code>!</code> at the beginning:</p><pre><code>![Alt Text](https://example.com/image.jpg)\n</code></pre><p>The image URL can be relative or absolute.</p><hr><h3 id=\"images-with-titles\">Images with Titles</h3><p>Add a title in quotes for extra context:</p><pre><code>![Alt Text](https://example.com/image.jpg \"Optional Title\")\n</code></pre><hr><h3 id=\"tables\">Tables</h3><p>Use pipes <code>|</code> and dashes <code>-</code> to create tables:</p><pre><code class=\"language-markdown\">| Syntax   | Description |\n| ----- | ----- |\n| **Bold** | Bold text   |\n| _Italic_ | Italic text |\n</code></pre><hr><h3 id=\"code-blocks\">Code Blocks</h3><h2 id=\"inline-codes\">Inline Codes</h2><p>Wrap code in backticks:</p><pre><code>`inline code`\n</code></pre><hr><h2 id=\"multi-line-codes\">Multi-line Codes</h2><p>Use triple backticks (```) to format multi-line code blocks:</p><pre><code>function example() {\n  console.log(\"Hello, Markdown!\");\n}\n</code></pre><hr><h3 id=\"wrapping-up\">Wrapping Up</h3><p>Markdown provides a simple way to include links, images, tables, and code in your content. Master these features to create well-structured and visually appealing documents!</p>",
+      "outline" : [
+        {
+          "children" : [
+
+          ],
+          "fragment" : "links",
+          "level" : 2,
+          "text" : "Links"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "basic-links",
+          "level" : 3,
+          "text" : "Basic Links"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "links-with-titles",
+          "level" : 3,
+          "text" : "Links with Titles"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "images",
+          "level" : 2,
+          "text" : "Images"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "basic-images",
+          "level" : 3,
+          "text" : "Basic Images"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "images-with-titles",
+          "level" : 3,
+          "text" : "Images with Titles"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "tables",
+          "level" : 3,
+          "text" : "Tables"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "code-blocks",
+          "level" : 3,
+          "text" : "Code Blocks"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "inline-codes",
+          "level" : 2,
+          "text" : "Inline Codes"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "multi-line-codes",
+          "level" : 2,
+          "text" : "Multi-line Codes"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "wrapping-up",
+          "level" : 3,
+          "text" : "Wrapping Up"
+        }
+      ],
+      "readingTime" : 1
+    },
+    "description" : "This guide covers how to use links, images, and tables in Markdown.",
+    "image" : null,
+    "lastUpdate" : {
+      "date" : {
+        "full" : "Wednesday, March 19, 2025",
+        "long" : "March 19, 2025",
+        "medium" : "Mar 19, 2025",
+        "short" : "3/19/25"
+      },
+      "formats" : {
+        "iso8601" : "2025-03-19T11:55:35.000Z",
+        "rss" : "Wed, 19 Mar 2025 11:55:35 +0000",
+        "sitemap" : "2025-03-19",
+        "year" : "2025"
+      },
+      "time" : {
+        "full" : "11:55:35 AM Greenwich Mean Time",
+        "long" : "11:55:35 AM GMT",
+        "medium" : "11:55:35 AM",
+        "short" : "11:55 AM"
+      },
+      "timestamp" : 1742385335
+    },
+    "order" : 2,
+    "permalink" : "http://localhost:3000/markdown-basics/links-images-and-tables/",
+    "slug" : {
+      "value" : "markdown-basics/links-images-and-tables"
+    },
+    "title" : "Links, images and tables"
+  },
+  {
+    "category" : [
+      {
+        "contents" : {
+          "html" : "<h1>Deployment</h1><hr><p>In this chapter, we will learn how to deploy our site to a live server.<br>We will focus on deploying our site to <strong>Github Pages</strong>.</p>",
+          "outline" : [
+
+          ],
+          "readingTime" : 1
+        },
+        "description" : "",
+        "image" : null,
+        "lastUpdate" : {
+          "date" : {
+            "full" : "Tuesday, April 1, 2025",
+            "long" : "April 1, 2025",
+            "medium" : "Apr 1, 2025",
+            "short" : "4/1/25"
+          },
+          "formats" : {
+            "iso8601" : "2025-04-01T11:36:20.000Z",
+            "rss" : "Tue, 01 Apr 2025 11:36:20 +0000",
+            "sitemap" : "2025-04-01",
+            "year" : "2025"
+          },
+          "time" : {
+            "full" : "11:36:20 AM Greenwich Mean Time",
+            "long" : "11:36:20 AM GMT",
+            "medium" : "11:36:20 AM",
+            "short" : "11:36 AM"
+          },
+          "timestamp" : 1743507380
+        },
+        "order" : 4,
+        "permalink" : "http://localhost:3000/deployment/",
+        "slug" : {
+          "value" : "deployment"
+        },
+        "title" : "Deployment"
+      }
+    ],
+    "contents" : {
+      "html" : "<h1>GitHub Deploy</h1><p>Toucan-based websites can be hosted for free using GitHub Pages. Follow these steps to set up your site.</p><hr><h2 id=\"creating-a-repository-for-your-site\">Creating a repository for your site</h2><p>You can either create a repository or choose an existing repository for your site.</p><p>If you want to create a GitHub Pages site for a repository where not all of the files in the repository are related to the site, you will be able to configure a publishing source for your site. For example, you can have a dedicated branch and folder to hold your site source files, or you can use a custom GitHub Actions workflow to build and deploy your site source files.</p><p>If the account that owns the repository uses GitHub Free or GitHub Free for organizations, the repository must be public.</p><p>If you want to create a site in an existing repository, skip to the <a href=\"http://localhost:3000/github-deploy#creating-your-site\">Creating your site</a> section.</p><ol><li>In the upper-right corner of any page, select <code>+</code> , then click <strong>New repository</strong>.<br><img src=\"http://localhost:3000/assets/deployment/github-pages/image1.png\" alt=\"image1\"></li><li>Use the Owner dropdown menu to select the account you want to own the repository.<br><img src=\"http://localhost:3000/assets/deployment/github-pages/image2.png\" alt=\"image2\"></li><li>Type a name for your repository and an optional description. If you’re creating a user or organization site, your repository must be named <code>user.github.io</code> or <code>organization.github.io</code>. If your user or organization name contains uppercase letters, you must lowercase the letters. For more information, see <a href=\"https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites\" target=\"_blank\">About GitHub Pages</a>.<br><img src=\"http://localhost:3000/assets/deployment/github-pages/image3.png\" alt=\"image3\"></li><li>For the repository visibility, choose <strong>public</strong>. For more information, see <a href=\"https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories#about-repository-visibility\" target=\"_blank\">About repositories</a>.</li><li>Select <strong>Initialize this repository with a README</strong>.</li><li>Click <strong>Create repository</strong>.</li></ol><hr><h2 id=\"add-content-to-the-repository\">Add content to the repository</h2><ol><li>Clone the Repository locally to your computer, if not already done:<pre><code>git clone https://github.com/your-username/your-repository.git\n</code></pre></li><li>Navigate to the local repository folder and copy the <code>src</code> folder with all the content.<br>Use the generator’s serve command:<pre><code>toucan generate\n</code></pre>After succesfull generation all the data is generated inside the <code>docs</code> folder by Toucan.</li><li>Push all the content to GitHub, add and commit files:<pre><code>git add .\ngit commit -m \"Add generated site content\"\ngit push origin main\n</code></pre></li></ol><hr><h2 id=\"creating-your-site\">Creating your site</h2><p>Before you can create your site, you must have a repository for your site on GitHub. If you’re not creating your site in an existing repository, see <a href=\"http://localhost:3000/github-deploy#creating-a-repository-for-your-site\">Creating a repository for your site</a>.</p><ol><li>On GitHub, navigate to your site’s repository.</li><li>Under your repository name, click <code>Settings</code>. If you cannot see the <code>Settings</code> tab, select the <code>...</code> dropdown menu, then click <code>Settings</code>.</li><li>In the <code>Code and automation</code> section of the sidebar, click <code>Pages</code>.</li><li>Under Source, leave the option <code>Deploy from a branch</code>.<br><img src=\"http://localhost:3000/assets/deployment/github-pages/image4.png\" alt=\"image4\"></li><li>Under Branch:<br><img src=\"http://localhost:3000/assets/deployment/github-pages/image5.png\" alt=\"image5\"><ul><li>Select the branch where you committed your files (e.g., main).</li><li>Choose the <strong>/docs</strong> folder as the source.</li><li>Click Save.</li></ul></li><li>Check the published site, GitHub will provide a public URL for your site, such as:<pre><code>https://your-username.github.io/my-github-page/\n</code></pre></li></ol><hr><h2 id=\"managing-a-custom-domain\">Managing a custom domain</h2><p>You can set up or update certain DNS records and your repository settings to point the default domain for your GitHub Pages site to a custom domain.</p><ol><li>On GitHub, navigate to your site’s repository.</li><li>Under your repository name, click <code>Settings</code>. If you cannot see the <code>Settings</code> tab, select the <code>...</code> dropdown menu, then click <code>Settings</code>.</li><li>In the <code>Code and automation</code> section of the sidebar, click <code>Pages</code>.</li><li>Under <code>Custom domain</code>, type your custom domain, then click Save. If you are publishing your site from a branch, this will create a commit that adds a <code>CNAME</code> file directly to the root of your source branch. If you are publishing your site with a custom GitHub Actions workflow, no <code>CNAME</code> file is created, so you need to create one manually (containing only a line of text with your custom domain).<br><img src=\"http://localhost:3000/assets/deployment/github-pages/image6.png\" alt=\"image6\"></li><li>Navigate to your DNS provider and create either an <code>ALIAS</code>, <code>ANAME</code>, or <code>A</code> record. You can also create <code>AAAA</code> records for IPv6 support. If you’re implementing IPv6 support, we highly recommend using an <code>A</code> record in addition to your <code>AAAA</code> record, due to slow adoption of IPv6 globally. For more information about how to create the correct record, see your DNS provider’s documentation.</li></ol>",
+      "outline" : [
+        {
+          "children" : [
+
+          ],
+          "fragment" : "creating-a-repository-for-your-site",
+          "level" : 2,
+          "text" : "Creating a repository for your site"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "add-content-to-the-repository",
+          "level" : 2,
+          "text" : "Add content to the repository"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "creating-your-site",
+          "level" : 2,
+          "text" : "Creating your site"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "managing-a-custom-domain",
+          "level" : 2,
+          "text" : "Managing a custom domain"
+        }
+      ],
+      "readingTime" : 2
+    },
+    "description" : "Toucan-based websites can be hosted for free using GitHub Pages. Follow these steps to set up your site",
+    "image" : null,
+    "lastUpdate" : {
+      "date" : {
+        "full" : "Wednesday, March 19, 2025",
+        "long" : "March 19, 2025",
+        "medium" : "Mar 19, 2025",
+        "short" : "3/19/25"
+      },
+      "formats" : {
+        "iso8601" : "2025-03-19T11:56:30.000Z",
+        "rss" : "Wed, 19 Mar 2025 11:56:30 +0000",
+        "sitemap" : "2025-03-19",
+        "year" : "2025"
+      },
+      "time" : {
+        "full" : "11:56:30 AM Greenwich Mean Time",
+        "long" : "11:56:30 AM GMT",
+        "medium" : "11:56:30 AM",
+        "short" : "11:56 AM"
+      },
+      "timestamp" : 1742385390
+    },
+    "order" : 1,
+    "permalink" : "http://localhost:3000/deployment/github-pages/",
+    "slug" : {
+      "value" : "deployment/github-pages"
+    },
+    "title" : "GitHub Pages"
+  }
+]

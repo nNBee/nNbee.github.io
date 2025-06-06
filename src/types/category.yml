@@ -1,0 +1,20 @@
+id: category
+paths:
+  - docs/category
+
+properties:
+  title:
+    type: string
+    required: true
+
+queries:
+  guides:
+    contentType: guide
+    scope: detail
+    filter:
+      key: category
+      operator: equals
+      value: '{{id}}'
+    orderBy:
+      - key: title
+        direction: asc

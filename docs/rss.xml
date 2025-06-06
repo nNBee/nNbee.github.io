@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<channel>
+    <title>T-Doc</title>
+    <description>T-Doc is a premium them for Toucan static site generator.</description>
+    <link>http://localhost:3000</link>
+    <language></language>
+    <lastBuildDate>Thu, 05 Jun 2025 14:10:35 +0000</lastBuildDate>
+    <pubDate>Thu, 05 Jun 2025 14:10:35 +0000</pubDate>
+    <ttl>250</ttl>
+    <atom:link href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
+
+
+</channel>
+</rss>
