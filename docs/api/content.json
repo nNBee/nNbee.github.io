@@ -299,7 +299,7 @@
       }
     ],
     "contents" : {
-      "html" : "<h1>Add a New Category</h1><p>Categories are essential for organizing content in documentation websites. They help visitors find guides and enhance site navigation. Follow the steps below to add a new category in <strong>T-Doc Theme</strong>.</p><hr><h3 id=\"step-1-navigate-to-the-docs-directory\">Step 1: Navigate to the Docs Directory</h3><ol><li>Open your project directory.</li><li>Go to the <strong>src/contents/docs/</strong> folder. This folder contains all documentation content.</li></ol><hr><h3 id=\"step-2-create-a-new-category-directory\">Step 2: Create a New Category Directory</h3><ol><li>Create a new directory for your category:<ul><li>Name the folder based on the category name you want to add. For example:<pre><code class=\"language-bash\">mkdir src/contents/docs/my-new-category\n</code></pre></li><li>Use lowercase letters and hyphens for consistency in folder naming.</li></ul></li></ol><hr><h3 id=\"step-3-add-an-index.md-file\">Step 3: Add an <code>index.md</code> File</h3><ol><li>Inside the new directory (e.g., <code>src/contents/docs/my-new-category</code>), create a file named <code>index.md</code>.<ul><li>This file contains the metadata for the category.</li></ul></li><li>Add the following content to the <code>index.md</code> file:<pre><code>---\ntype: category\nslug: my-new-category\ntitle: My New Category\ndescription: 'A description for this category.'\norder: 1\n---\n</code></pre><strong>Fields Explanation</strong>:<ul><li><strong>type</strong>: Always set to <code>category</code>.</li><li><strong>slug</strong>: A unique, URL-friendly identifier for the category.</li><li><strong>title</strong>: The display name of the category.</li><li><strong>description</strong>: A short description of the category.</li><li><strong>order</strong>: Specifies the display order of categories, with lower numbers appearing first.</li></ul></li></ol><hr><h3 id=\"step-4-regenerate-the-site\">Step 4: Regenerate the Site</h3><p>Once the category is created, regenerate your site to apply the changes:</p><ol><li>Open your terminal and navigate to your project directory.</li><li>Run the following command:<pre><code>toucan generate\n</code></pre></li><li>This updates the site’s content and templates to incorporate the new category.</li></ol><hr><h3 id=\"step-5-verify-the-category\">Step 5: Verify the Category</h3><ol><li>Start the local development server:<pre><code>toucan serve\n</code></pre></li><li>Open your browser and go to <a href=\"http://localhost:3000\" target=\"_blank\">http://localhost:3000</a>.</li><li>Go to the <strong>Docs</strong> page to verify that the new category appears in the left-hand documentation menu.</li></ol><hr><h3 id=\"additional-notes\">Additional Notes</h3><ul><li><strong>Using Categories in Guides</strong>:<ul><li>To assign a category to a guide, include it in the <code>category</code> field of the guide’s <code>index.md</code> file. Example:<pre><code>category: my-new-category\n</code></pre></li></ul></li></ul><hr><p>This guide will help you easily add and manage categories in <strong>T-Doc Theme</strong>.</p>",
+      "html" : "<h1>Add a New Category</h1><p>Categories are essential for organizing content in documentation websites. They help visitors find guides and enhance site navigation. Follow the steps below to add a new category in <strong>T-Doc Theme</strong>.</p><hr><h3 id=\"step-1-navigate-to-the-docs-directory\">Step 1: Navigate to the Docs Directory</h3><ol><li>Open your project directory.</li><li>Go to the <strong>src/contents/docs/</strong> folder. This folder contains all documentation content.</li></ol><hr><h3 id=\"step-2-create-a-new-category-directory\">Step 2: Create a New Category Directory</h3><ol><li>Create a new directory for your category:<ul><li>Name the folder based on the category name you want to add. For example:<pre><code class=\"language-bash\">mkdir src/contents/docs/my-new-category\n</code></pre></li><li>Use lowercase letters and hyphens for consistency in folder naming.</li></ul></li></ol><hr><h3 id=\"step-3-add-an-index.md-file\">Step 3: Add an <code>index.md</code> File</h3><ol><li>Inside the new directory (e.g., <code>src/contents/docs/my-new-category</code>), create a file named <code>index.md</code>.<ul><li>This file contains the metadata for the category.</li></ul></li><li>Add the following content to the <code>index.md</code> file:<pre><code class=\"language-yaml\">---\ntype: category\nslug: my-new-category\ntitle: My New Category\ndescription: 'A description for this category.'\norder: 1\n---\n</code></pre><strong>Fields Explanation</strong>:<ul><li><strong>type</strong>: Always set to <code>category</code>.</li><li><strong>slug</strong>: A unique, URL-friendly identifier for the category.</li><li><strong>title</strong>: The display name of the category.</li><li><strong>description</strong>: A short description of the category.</li><li><strong>order</strong>: Specifies the display order of categories, with lower numbers appearing first.</li></ul></li></ol><hr><h3 id=\"step-4-regenerate-the-site\">Step 4: Regenerate the Site</h3><p>Once the category is created, regenerate your site to apply the changes:</p><ol><li>Open your terminal and navigate to your project directory.</li><li>Run the following command:<pre><code>toucan generate\n</code></pre></li><li>This updates the site’s content and templates to incorporate the new category.</li></ol><hr><h3 id=\"step-5-verify-the-category\">Step 5: Verify the Category</h3><ol><li>Start the local development server:<pre><code>toucan serve\n</code></pre></li><li>Open your browser and go to <a href=\"http://localhost:3000\" target=\"_blank\">http://localhost:3000</a>.</li><li>Go to the <strong>Docs</strong> page to verify that the new category appears in the left-hand documentation menu.</li></ol><hr><h3 id=\"additional-notes\">Additional Notes</h3><ul><li><strong>Using Categories in Guides</strong>:<ul><li>To assign a category to a guide, include it in the <code>category</code> field of the guide’s <code>index.md</code> file. Example:<pre><code class=\"language-yaml\">category: my-new-category\n</code></pre></li></ul></li></ul><hr><p>This guide will help you easily add and manage categories in <strong>T-Doc Theme</strong>.</p>",
       "outline" : [
         {
           "children" : [
@@ -362,18 +362,18 @@
         "short" : "6/6/25"
       },
       "formats" : {
-        "iso8601" : "2025-06-06T10:10:40.214Z",
-        "rss" : "Fri, 06 Jun 2025 10:10:40 +0000",
+        "iso8601" : "2025-06-06T10:15:45.418Z",
+        "rss" : "Fri, 06 Jun 2025 10:15:45 +0000",
         "sitemap" : "2025-06-06",
         "year" : "2025"
       },
       "time" : {
-        "full" : "10:10:40 AM Greenwich Mean Time",
-        "long" : "10:10:40 AM GMT",
-        "medium" : "10:10:40 AM",
-        "short" : "10:10 AM"
+        "full" : "10:15:45 AM Greenwich Mean Time",
+        "long" : "10:15:45 AM GMT",
+        "medium" : "10:15:45 AM",
+        "short" : "10:15 AM"
       },
-      "timestamp" : 1749204640.213748
+      "timestamp" : 1749204945.4179902
     },
     "order" : 2,
     "permalink" : "https://nnbee.github.io/theme-basics/add-a-new-category/",
@@ -424,7 +424,7 @@
       }
     ],
     "contents" : {
-      "html" : "<h1>Add a New Guide</h1><p>Adding a new guide is essential to keeping your site updated with fresh content. Follow these steps to create and publish a new guide in <strong>T-Doc Theme</strong>.</p><hr><h3 id=\"step-1-navigate-to-the-proper-category-directory\">Step 1: Navigate to the Proper Category Directory</h3><ol><li>Open your project directory.</li><li>Select the category for your guide, and go to the <strong>src/contents/docs/my-category</strong> folder. This folder contains all guides with the same category.</li></ol><hr><h3 id=\"step-2-create-a-new-guide-directory\">Step 2: Create a New Guide Directory</h3><ol><li>Create a new directory for your guide:<ul><li>Name the folder based on the guide title or a short identifier. For example:<pre><code>mkdir src/contents/docs/my-category/my-first-guide\n</code></pre></li><li>Use lowercase letters and hyphens to maintain consistency in folder naming.</li></ul></li></ol><hr><h3 id=\"step-3-add-an-index.md-file\">Step 3: Add an <code>index.md</code> File</h3><ol><li>Inside the new directory (e.g., <code>src/contents/docs/my-category/my-first-guide</code>), create a file named <code>index.md</code>.<ul><li>This file contains the metadata and content for the guide.</li></ul></li><li>Add the following content to the <code>index.md</code> file:<pre><code>---\ntype: guide\ncategory: my-category\nslug: my-category/my-first-guide\ntitle: \"My First Guide\"\ndescription: \"This is an introduction to my first guide.\"\norder: 3\n---\n</code></pre><strong>Fields Explanation</strong>:<ul><li><strong>type</strong>: Always set to <code>guide</code>.</li><li><strong>category</strong>: Defines the category under which this guide is grouped.</li><li><strong>slug</strong>: A unique, URL-friendly identifier for the guide. It determines the guide’s URL path and should use lowercase letters and hyphens.</li><li><strong>title</strong>: The title of the guide as it will appear on the site.</li><li><strong>description</strong>: A brief description or summary of the guide.</li><li><strong>order</strong>: Specifies the guide’s display order within the category, with lower numbers appearing first.</li></ul></li></ol><hr><h3 id=\"step-4-write-the-guide-content\">Step 4: Write the Guide Content</h3><ol><li>Below the metadata in <code>index.md</code>, write the full content of your guide using Markdown. Example:<pre><code>---\ntype: guide\ncategory: my-category\nslug: my-category/my-first-guide\ntitle: \"My First Guide\"\ndescription: \"This is an introduction to my first guide.\"\norder:\n---\n\n## Welcome to My First Guide\n\nThis is the content of my first guide. It’s written in Markdown, so you can easily format headings, lists, images, and more.\n\n### Here’s a List\n- Item 1\n- Item 2\n- Item 3\n</code></pre></li></ol><hr><h3 id=\"step-5-add-images-optional\">Step 5: Add Images (Optional)</h3><ol><li>If your guide includes images, create an <strong>assets</strong> folder inside the guide directory:<pre><code>mkdir src/contents/docs/my-category/my-first-guide/assets\n</code></pre></li><li>Place your images in the <strong>assets</strong> folder and reference them in your Markdown content. Example:<pre><code class=\"language-markdown\">![My Image](./assets/my-image.jpg)\n</code></pre></li></ol><hr><h3 id=\"step-6-regenerate-the-site\">Step 6: Regenerate the Site</h3><p>Once the guide is created, regenerate your site to apply the changes:</p><ol><li>Open your terminal and navigate to your project directory.</li><li>Run the following command:<pre><code>toucan generate\n</code></pre></li><li>This updates the site’s content and templates to reflect the new guide.</li></ol><hr><h3 id=\"step-7-verify-the-guide\">Step 7: Verify the Guide</h3><ol><li>Start the local development server:<pre><code>toucan serve\n</code></pre></li><li>Open your browser and go to <a href=\"http://localhost:3000\" target=\"_blank\">http://localhost:3000</a>.</li><li>Go to the <strong>Docs</strong> page to verify that the new guide appears under the correct category.</li></ol><hr><h3 id=\"additional-notes\">Additional Notes</h3><ul><li><strong>Editing Metadata</strong>:<ul><li>You can edit the <code>index.md</code> file at any time to update the guide’s metadata or content.</li></ul></li></ul><hr><p>This guide will help you easily create and manage guides in <strong>Try-O-Theme</strong>.</p>",
+      "html" : "<h1>Add a New Guide</h1><p>Adding a new guide is essential to keeping your site updated with fresh content. Follow these steps to create and publish a new guide in <strong>T-Doc Theme</strong>.</p><hr><h3 id=\"step-1-navigate-to-the-proper-category-directory\">Step 1: Navigate to the Proper Category Directory</h3><ol><li>Open your project directory.</li><li>Select the category for your guide, and go to the <strong>src/contents/docs/my-category</strong> folder. This folder contains all guides with the same category.</li></ol><hr><h3 id=\"step-2-create-a-new-guide-directory\">Step 2: Create a New Guide Directory</h3><ol><li>Create a new directory for your guide:<ul><li>Name the folder based on the guide title or a short identifier. For example:<pre><code>mkdir src/contents/docs/my-category/my-first-guide\n</code></pre></li><li>Use lowercase letters and hyphens to maintain consistency in folder naming.</li></ul></li></ol><hr><h3 id=\"step-3-add-an-index.md-file\">Step 3: Add an <code>index.md</code> File</h3><ol><li>Inside the new directory (e.g., <code>src/contents/docs/my-category/my-first-guide</code>), create a file named <code>index.md</code>.<ul><li>This file contains the metadata and content for the guide.</li></ul></li><li>Add the following content to the <code>index.md</code> file:<pre><code>---\ntype: guide\ncategory: my-category\nslug: my-category/my-first-guide\ntitle: \"My First Guide\"\ndescription: \"This is an introduction to my first guide.\"\norder: 3\n---\n</code></pre><strong>Fields Explanation</strong>:<ul><li><strong>type</strong>: Always set to <code>guide</code>.</li><li><strong>category</strong>: Defines the category under which this guide is grouped.</li><li><strong>slug</strong>: A unique, URL-friendly identifier for the guide. It determines the guide’s URL path and should use lowercase letters and hyphens.</li><li><strong>title</strong>: The title of the guide as it will appear on the site.</li><li><strong>description</strong>: A brief description or summary of the guide.</li><li><strong>order</strong>: Specifies the guide’s display order within the category, with lower numbers appearing first.</li></ul></li></ol><hr><h3 id=\"step-4-write-the-guide-content\">Step 4: Write the Guide Content</h3><ol><li>Below the metadata in <code>index.md</code>, write the full content of your guide using Markdown. Example:<pre><code>---\ntype: guide\ncategory: my-category\nslug: my-category/my-first-guide\ntitle: \"My First Guide\"\ndescription: \"This is an introduction to my first guide.\"\norder:\n---\n\n## Welcome to My First Guide\n\nThis is the content of my first guide. It’s written in Markdown, so you can easily format headings, lists, images, and more.\n\n### Here’s a List\n- Item 1\n- Item 2\n- Item 3\n</code></pre></li></ol><hr><h3 id=\"step-5-add-images-optional\">Step 5: Add Images (Optional)</h3><ol><li>If your guide includes images, create an <strong>assets</strong> folder inside the guide directory:<pre><code>mkdir src/contents/docs/my-category/my-first-guide/assets\n</code></pre></li><li>Place your images in the <strong>assets</strong> folder and reference them in your Markdown content. Example:<pre><code>![My Image](./assets/my-image.jpg)\n</code></pre></li></ol><hr><h3 id=\"step-6-regenerate-the-site\">Step 6: Regenerate the Site</h3><p>Once the guide is created, regenerate your site to apply the changes:</p><ol><li>Open your terminal and navigate to your project directory.</li><li>Run the following command:<pre><code>toucan generate\n</code></pre></li><li>This updates the site’s content and templates to reflect the new guide.</li></ol><hr><h3 id=\"step-7-verify-the-guide\">Step 7: Verify the Guide</h3><ol><li>Start the local development server:<pre><code>toucan serve\n</code></pre></li><li>Open your browser and go to <a href=\"http://localhost:3000\" target=\"_blank\">http://localhost:3000</a>.</li><li>Go to the <strong>Docs</strong> page to verify that the new guide appears under the correct category.</li></ol><hr><h3 id=\"additional-notes\">Additional Notes</h3><ul><li><strong>Editing Metadata</strong>:<ul><li>You can edit the <code>index.md</code> file at any time to update the guide’s metadata or content.</li></ul></li></ul><hr><p>This guide will help you easily create and manage guides in <strong>Try-O-Theme</strong>.</p>",
       "outline" : [
         {
           "children" : [
@@ -497,24 +497,24 @@
     "image" : null,
     "lastUpdate" : {
       "date" : {
-        "full" : "Wednesday, March 19, 2025",
-        "long" : "March 19, 2025",
-        "medium" : "Mar 19, 2025",
-        "short" : "3/19/25"
+        "full" : "Friday, June 6, 2025",
+        "long" : "June 6, 2025",
+        "medium" : "Jun 6, 2025",
+        "short" : "6/6/25"
       },
       "formats" : {
-        "iso8601" : "2025-03-19T09:09:45.000Z",
-        "rss" : "Wed, 19 Mar 2025 09:09:45 +0000",
-        "sitemap" : "2025-03-19",
+        "iso8601" : "2025-06-06T10:11:08.592Z",
+        "rss" : "Fri, 06 Jun 2025 10:11:08 +0000",
+        "sitemap" : "2025-06-06",
         "year" : "2025"
       },
       "time" : {
-        "full" : "9:09:45 AM Greenwich Mean Time",
-        "long" : "9:09:45 AM GMT",
-        "medium" : "9:09:45 AM",
-        "short" : "9:09 AM"
+        "full" : "10:11:08 AM Greenwich Mean Time",
+        "long" : "10:11:08 AM GMT",
+        "medium" : "10:11:08 AM",
+        "short" : "10:11 AM"
       },
-      "timestamp" : 1742375385
+      "timestamp" : 1749204668.5916765
     },
     "order" : 3,
     "permalink" : "https://nnbee.github.io/theme-basics/add-a-new-guide/",
@@ -980,7 +980,7 @@
       }
     ],
     "contents" : {
-      "html" : "<h1>Links, Images, and Tables</h1><p>Markdown provides a simple syntax for adding links, images, and tables to your documents.</p><hr><h2 id=\"links\">Links</h2><h3 id=\"basic-links\">Basic Links</h3><p>Use square brackets <code>[ ]</code> for the link text and parentheses <code>( )</code> to enclose the URL:</p><pre><code>[Link Text](https://example.com)\n</code></pre><hr><h3 id=\"links-with-titles\">Links with Titles</h3><p>Add a title by including text in quotes after the URL:</p><pre><code>[Link Text](https://example.com \"Optional Title\")\n</code></pre><hr><h2 id=\"images\">Images</h2><h3 id=\"basic-images\">Basic Images</h3><p>Similar to links, but with an exclamation mark <code>!</code> at the beginning:</p><pre><code>![Alt Text](https://example.com/image.jpg)\n</code></pre><p>The image URL can be relative or absolute.</p><hr><h3 id=\"images-with-titles\">Images with Titles</h3><p>Add a title in quotes for extra context:</p><pre><code>![Alt Text](https://example.com/image.jpg \"Optional Title\")\n</code></pre><hr><h3 id=\"tables\">Tables</h3><p>Use pipes <code>|</code> and dashes <code>-</code> to create tables:</p><pre><code class=\"language-markdown\">| Syntax   | Description |\n| ----- | ----- |\n| **Bold** | Bold text   |\n| _Italic_ | Italic text |\n</code></pre><hr><h3 id=\"code-blocks\">Code Blocks</h3><h2 id=\"inline-codes\">Inline Codes</h2><p>Wrap code in backticks:</p><pre><code>`inline code`\n</code></pre><hr><h2 id=\"multi-line-codes\">Multi-line Codes</h2><p>Use triple backticks (```) to format multi-line code blocks:</p><pre><code>function example() {\n  console.log(\"Hello, Markdown!\");\n}\n</code></pre><hr><h3 id=\"wrapping-up\">Wrapping Up</h3><p>Markdown provides a simple way to include links, images, tables, and code in your content. Master these features to create well-structured and visually appealing documents!</p>",
+      "html" : "<h1>Links, Images, and Tables</h1><p>Markdown provides a simple syntax for adding links, images, and tables to your documents.</p><hr><h2 id=\"links\">Links</h2><h3 id=\"basic-links\">Basic Links</h3><p>Use square brackets <code>[ ]</code> for the link text and parentheses <code>( )</code> to enclose the URL:</p><pre><code>[Link Text](https://example.com)\n</code></pre><hr><h3 id=\"links-with-titles\">Links with Titles</h3><p>Add a title by including text in quotes after the URL:</p><pre><code>[Link Text](https://example.com \"Optional Title\")\n</code></pre><hr><h2 id=\"images\">Images</h2><h3 id=\"basic-images\">Basic Images</h3><p>Similar to links, but with an exclamation mark <code>!</code> at the beginning:</p><pre><code>![Alt Text](https://example.com/image.jpg)\n</code></pre><p>The image URL can be relative or absolute.</p><hr><h3 id=\"images-with-titles\">Images with Titles</h3><p>Add a title in quotes for extra context:</p><pre><code>![Alt Text](https://example.com/image.jpg \"Optional Title\")\n</code></pre><hr><h3 id=\"tables\">Tables</h3><p>Use pipes <code>|</code> and dashes <code>-</code> to create tables:</p><pre><code>| Syntax   | Description |\n| ----- | ----- |\n| **Bold** | Bold text   |\n| _Italic_ | Italic text |\n</code></pre><hr><h3 id=\"code-blocks\">Code Blocks</h3><h2 id=\"inline-codes\">Inline Codes</h2><p>Wrap code in backticks:</p><pre><code>`inline code`\n</code></pre><hr><h2 id=\"multi-line-codes\">Multi-line Codes</h2><p>Use triple backticks (```) to format multi-line code blocks:</p><pre><code>function example() {\n  console.log(\"Hello, Markdown!\");\n}\n</code></pre><hr><h3 id=\"wrapping-up\">Wrapping Up</h3><p>Markdown provides a simple way to include links, images, tables, and code in your content. Master these features to create well-structured and visually appealing documents!</p>",
       "outline" : [
         {
           "children" : [
@@ -1077,24 +1077,24 @@
     "image" : null,
     "lastUpdate" : {
       "date" : {
-        "full" : "Wednesday, March 19, 2025",
-        "long" : "March 19, 2025",
-        "medium" : "Mar 19, 2025",
-        "short" : "3/19/25"
+        "full" : "Friday, June 6, 2025",
+        "long" : "June 6, 2025",
+        "medium" : "Jun 6, 2025",
+        "short" : "6/6/25"
       },
       "formats" : {
-        "iso8601" : "2025-03-19T11:55:35.000Z",
-        "rss" : "Wed, 19 Mar 2025 11:55:35 +0000",
-        "sitemap" : "2025-03-19",
+        "iso8601" : "2025-06-06T10:11:08.450Z",
+        "rss" : "Fri, 06 Jun 2025 10:11:08 +0000",
+        "sitemap" : "2025-06-06",
         "year" : "2025"
       },
       "time" : {
-        "full" : "11:55:35 AM Greenwich Mean Time",
-        "long" : "11:55:35 AM GMT",
-        "medium" : "11:55:35 AM",
-        "short" : "11:55 AM"
+        "full" : "10:11:08 AM Greenwich Mean Time",
+        "long" : "10:11:08 AM GMT",
+        "medium" : "10:11:08 AM",
+        "short" : "10:11 AM"
       },
-      "timestamp" : 1742385335
+      "timestamp" : 1749204668.4498913
     },
     "order" : 2,
     "permalink" : "https://nnbee.github.io/markdown-basics/links-images-and-tables/",
