@@ -1,3 +1,4 @@
+# baseUrl: 'http://localhost:3000/'
 baseUrl: 'https://nnbee.github.io/'
 locale: 'en-US'
 name: 'T-Doc'

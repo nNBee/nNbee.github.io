@@ -199,10 +199,10 @@
                     <details class="https://nnbee.github.io/theme-basics/" open>
                         <summary style="font-size: 1rem;"><a href="https://nnbee.github.io/theme-basics/">Theme basics</a></summary>
                         <ul>
-                            <li><a href="https://nnbee.github.io/theme-basics/add-a-new-page/">Add a custom page</a></li>
+                            <li><a href="https://nnbee.github.io/theme-basics/change-the-site-logo/">Change the Site Logo</a></li>
             <li><a href="https://nnbee.github.io/theme-basics/add-a-new-category/">Add a new category</a></li>
             <li><a href="https://nnbee.github.io/theme-basics/add-a-new-guide/">Add a new guide</a></li>
-            <li><a href="https://nnbee.github.io/theme-basics/change-the-site-logo/">Change the Site Logo</a></li>
+            <li><a href="https://nnbee.github.io/theme-basics/add-a-new-page/">Add a custom page</a></li>
             <li><a href="https://nnbee.github.io/theme-basics/customize-the-footer/">Customize the footer</a></li>
                         </ul>
                     </details>
@@ -210,8 +210,8 @@
                     <details class="https://nnbee.github.io/markdown-basics/" open>
                         <summary style="font-size: 1rem;"><a href="https://nnbee.github.io/markdown-basics/">Markdown basics</a></summary>
                         <ul>
-                            <li><a href="https://nnbee.github.io/markdown-basics/links-images-and-tables/">Links, images and tables</a></li>
-            <li><a href="https://nnbee.github.io/markdown-basics/text-formatting-and-lists/">Text formatting and lists</a></li>
+                            <li><a href="https://nnbee.github.io/markdown-basics/text-formatting-and-lists/">Text formatting and lists</a></li>
+            <li><a href="https://nnbee.github.io/markdown-basics/links-images-and-tables/">Links, images and tables</a></li>
                         </ul>
                     </details>
 
@@ -234,18 +234,18 @@
         <li class="category">
                             <a href="https://nnbee.github.io/theme-basics/">Theme basics</a>
                             <ul>
-                                <li><a href="https://nnbee.github.io/theme-basics/add-a-new-page/">Add a custom page</a></li>
+                                <li><a href="https://nnbee.github.io/theme-basics/change-the-site-logo/">Change the Site Logo</a></li>
                 <li><a href="https://nnbee.github.io/theme-basics/add-a-new-category/">Add a new category</a></li>
                 <li><a href="https://nnbee.github.io/theme-basics/add-a-new-guide/">Add a new guide</a></li>
-                <li><a href="https://nnbee.github.io/theme-basics/change-the-site-logo/">Change the Site Logo</a></li>
+                <li><a href="https://nnbee.github.io/theme-basics/add-a-new-page/">Add a custom page</a></li>
                 <li><a href="https://nnbee.github.io/theme-basics/customize-the-footer/">Customize the footer</a></li>
                             </ul>
                         </li>
         <li class="category">
                             <a href="https://nnbee.github.io/markdown-basics/">Markdown basics</a>
                             <ul>
-                                <li><a href="https://nnbee.github.io/markdown-basics/links-images-and-tables/">Links, images and tables</a></li>
-                <li><a href="https://nnbee.github.io/markdown-basics/text-formatting-and-lists/">Text formatting and lists</a></li>
+                                <li><a href="https://nnbee.github.io/markdown-basics/text-formatting-and-lists/">Text formatting and lists</a></li>
+                <li><a href="https://nnbee.github.io/markdown-basics/links-images-and-tables/">Links, images and tables</a></li>
                             </ul>
                         </li>
         <li class="category">
@@ -265,7 +265,7 @@
                     <br/>
                     <hr>
                     <br/>
-                    <h1>Customize the Footer</h1><p>The footer is an important section of your website, often used to display additional navigation, social media links, or copyright information. Follow these steps to customize the footer in <strong>T-Doc Theme</strong>.</p><hr><h3 id="step-1-edit-the-footer-content">Step 1: Edit the Footer Content</h3><ol><li>Open the <strong>src/contents/index.yaml</strong> file in your project directory.<ul><li>This file contains the global configuration for your site, including footer content.</li></ul></li><li>Locate the <code>footer-socials</code> section. Example:</li></ol><pre><code class="language-yaml">footer-socials:
+                    <h1>Customize the Footer</h1><p>The footer is an important section of your website, often used to display additional navigation, social media links, or copyright information. Follow these steps to customize the footer in <strong>T-Doc Theme</strong>.</p><hr><h3 id="step-1-edit-the-footer-content">Step 1: Edit the Footer Content</h3><ol><li>Open the <strong>src/site.yaml</strong> file in your project directory.<ul><li>This file contains the global configuration for your site, including footer content.</li></ul></li><li>Locate the <code>footer-socials</code> section. Example:</li></ol><pre><code class="language-yaml">footer-socials:
   - title: 'Instagram'
     url: 'https://instagram.com/'
   - title: 'Facebook'
@@ -278,12 +278,12 @@
     url: 'https://linkedin.com/'
   - title: 'X'
     url: 'https://x.com/'
-</code></pre><ol><li>Add, update, or remove social media links as needed:<ul><li><strong>title</strong>: The name of the social platform or link.</li><li><strong>url</strong>: The URL for the social link.</li><li><strong>icon</strong> (optional): You can use a one-line SVG tag.</li></ul></li></ol><hr><h3 id="step-2-add-custom-links-or-text">Step 2: Add Custom Links or Text</h3><ol><li>To include additional text (e.g., copyright notices or custom links), locate or add a section like this in <strong>index.yaml</strong>:<pre><code class="language-yaml">footer-links:
+</code></pre><ol><li>Add, update, or remove social media links as needed:<ul><li><strong>title</strong>: The name of the social platform or link.</li><li><strong>url</strong>: The URL for the social link.</li><li><strong>icon</strong> (optional): You can use a one-line SVG tag.</li></ul></li></ol><hr><h3 id="step-2-add-custom-links-or-text">Step 2: Add Custom Links or Text</h3><ol><li>To include additional text (e.g., copyright notices or custom links), locate or add a section like this in <strong>site.yaml</strong>:<pre><code class="language-yaml">footer-links:
   - label: 'Privacy Policy'
     url: '/privacy-policy/'
   - label: 'Terms of Service'
     url: '/terms-of-service/'
-</code></pre></li><li>Modify the content to fit your requirements:<ul><li><strong>label</strong>: The text for the footer link.</li><li><strong>url</strong>: The relative or absolute URL for the link.</li></ul></li></ol><hr><h3 id="step-3-update-footer-styles-optional">Step 3: Update Footer Styles (Optional)</h3><ol><li>Navigate to the <strong>src/themes/default/templates/partials/</strong> directory. The footer layout is defined in the Mustache file: <code>footer.mustache</code>.</li><li>Edit the <code>footer.mustache</code> to adjust the structure, style, or additional content. Example:<pre><code class="language-html">&lt;footer&gt;
+</code></pre></li><li>Modify the content to fit your requirements:<ul><li><strong>label</strong>: The text for the footer link.</li><li><strong>url</strong>: The relative or absolute URL for the link.</li></ul></li><li>(Optional) Add your custom inline svg icon:<ul><li><strong>icon</strong>: The icon for the footer link.</li></ul></li></ol><hr><h3 id="step-3-update-footer-styles-optional">Step 3: Update Footer Styles (Optional)</h3><ol><li>Navigate to the <strong>src/themes/default/templates/partials/</strong> directory. The footer layout is defined in the Mustache file: <code>footer.mustache</code>.</li><li>Edit the <code>footer.mustache</code> to adjust the structure, style, or additional content. Example:<pre><code class="language-html">&lt;footer&gt;
   &lt;div class="footer-links"&gt;
     {{#footer-links}}
     &lt;a href="{{url}}"&gt;{{label}}&lt;/a&gt;

@@ -199,10 +199,10 @@
                     <details class="https://nnbee.github.io/theme-basics/" open>
                         <summary style="font-size: 1rem;"><a href="https://nnbee.github.io/theme-basics/">Theme basics</a></summary>
                         <ul>
-                            <li><a href="https://nnbee.github.io/theme-basics/add-a-new-page/">Add a custom page</a></li>
+                            <li><a href="https://nnbee.github.io/theme-basics/change-the-site-logo/">Change the Site Logo</a></li>
             <li><a href="https://nnbee.github.io/theme-basics/add-a-new-category/">Add a new category</a></li>
             <li><a href="https://nnbee.github.io/theme-basics/add-a-new-guide/">Add a new guide</a></li>
-            <li><a href="https://nnbee.github.io/theme-basics/change-the-site-logo/">Change the Site Logo</a></li>
+            <li><a href="https://nnbee.github.io/theme-basics/add-a-new-page/">Add a custom page</a></li>
             <li><a href="https://nnbee.github.io/theme-basics/customize-the-footer/">Customize the footer</a></li>
                         </ul>
                     </details>
@@ -210,8 +210,8 @@
                     <details class="https://nnbee.github.io/markdown-basics/" open>
                         <summary style="font-size: 1rem;"><a href="https://nnbee.github.io/markdown-basics/">Markdown basics</a></summary>
                         <ul>
-                            <li><a href="https://nnbee.github.io/markdown-basics/links-images-and-tables/">Links, images and tables</a></li>
-            <li><a href="https://nnbee.github.io/markdown-basics/text-formatting-and-lists/">Text formatting and lists</a></li>
+                            <li><a href="https://nnbee.github.io/markdown-basics/text-formatting-and-lists/">Text formatting and lists</a></li>
+            <li><a href="https://nnbee.github.io/markdown-basics/links-images-and-tables/">Links, images and tables</a></li>
                         </ul>
                     </details>
 
@@ -234,18 +234,18 @@
         <li class="category">
                             <a href="https://nnbee.github.io/theme-basics/">Theme basics</a>
                             <ul>
-                                <li><a href="https://nnbee.github.io/theme-basics/add-a-new-page/">Add a custom page</a></li>
+                                <li><a href="https://nnbee.github.io/theme-basics/change-the-site-logo/">Change the Site Logo</a></li>
                 <li><a href="https://nnbee.github.io/theme-basics/add-a-new-category/">Add a new category</a></li>
                 <li><a href="https://nnbee.github.io/theme-basics/add-a-new-guide/">Add a new guide</a></li>
-                <li><a href="https://nnbee.github.io/theme-basics/change-the-site-logo/">Change the Site Logo</a></li>
+                <li><a href="https://nnbee.github.io/theme-basics/add-a-new-page/">Add a custom page</a></li>
                 <li><a href="https://nnbee.github.io/theme-basics/customize-the-footer/">Customize the footer</a></li>
                             </ul>
                         </li>
         <li class="category">
                             <a href="https://nnbee.github.io/markdown-basics/">Markdown basics</a>
                             <ul>
-                                <li><a href="https://nnbee.github.io/markdown-basics/links-images-and-tables/">Links, images and tables</a></li>
-                <li><a href="https://nnbee.github.io/markdown-basics/text-formatting-and-lists/">Text formatting and lists</a></li>
+                                <li><a href="https://nnbee.github.io/markdown-basics/text-formatting-and-lists/">Text formatting and lists</a></li>
+                <li><a href="https://nnbee.github.io/markdown-basics/links-images-and-tables/">Links, images and tables</a></li>
                             </ul>
                         </li>
         <li class="category">
@@ -265,9 +265,25 @@
                     <br/>
                     <hr>
                     <br/>
-                    <h1>Change the Site Logo</h1><p>The <strong>site logo</strong> is one of the key elements of your site’s branding. In <strong>T-Doc Theme</strong>, the logo is located in the <code>assets</code> folder and can be customized easily. Follow the steps below to update your site logo.</p><hr><h2 id="step-1-locate-the-logo-files">Step 1: Locate the Logo Files</h2><ol><li>Navigate to the <strong>src/contents/assets/images/logos/</strong> directory in your project folder.<ul><li>By default, this folder contains two logo files::<ul><li><strong>logo.png</strong>: The primary logo used across the site.</li><li><strong>logo~dark.png</strong>: A variation of the logo used in dark mode (if your site supports it).</li></ul></li></ul></li></ol><hr><h2 id="step-2-prepare-your-custom-logos">Step 2: Prepare Your Custom Logos</h2><ol><li><strong>Create Your Custom Logos</strong>:<ul><li>Use design software like <strong>Adobe Photoshop</strong>, <strong>Canva</strong>, or <strong>Figma</strong> to create your custom logos.</li><li>Ensure the your logos align with your brand’s design.</li></ul></li><li><strong>Recommended File Format</strong>:<ul><li>Use PNG format with a transparent background for best results.</li><li>If you prefer other formats (e.g., SVG or JPG), ensure that your site supports them.</li></ul></li></ol><hr><h2 id="step-3-replace-the-logo-files">Step 3: Replace the Logo Files</h2><ol><li>Rename your custom logos to match the default logo file names:<ul><li><code>logo.png</code> (for the primary logo)</li><li><code>logo~dark.png</code> (for the dark mode logo)</li></ul></li><li>Copy your custom logo files into the <strong>src/contents/assets/images/logos/</strong> directory.<ul><li>Overwrite the existing <code>logo.png</code> and <code>logo~dark.png</code> files.</li></ul></li></ol><hr><h2 id="step-4-regenerate-the-site">Step 4: Regenerate the Site</h2><p>After replacing the logo files, you need to regenerate your site for the changes to take effect:</p><ol><li>Open your terminal and navigate to your project directory.</li><li>Run the following command:<pre><code>toucan generate
-</code></pre></li><li>This command will process the updated assets and regenerate the site.</li></ol><hr><h2 id="step-5-preview-your-changes">Step 5: Preview Your Changes</h2><ol><li>Start the local development server to preview the updated site:<pre><code>toucan serve
-</code></pre></li><li>Open your browser and navigate to <a href="http://localhost:3000" target="_blank">http://localhost:3000</a>.</li><li>Verify that:<ul><li>The new logo is displayed on the site.</li><li>The dark mode logo (if applicable) is displayed correctly.</li></ul></li></ol><hr><h2 id="step-6-troubleshooting">Step 6: Troubleshooting</h2><p>If the updated logo does not appear, check the following:</p><ol><li><strong>File Naming</strong>: Ensure that your custom files are named exactly <code>logo.png</code> and <code>logo~dark.png</code>.</li><li><strong>File Path</strong>: Confirm the files are located in <strong>src/contents/assets/images/logos/</strong>.</li><li><strong>Cache</strong>: Clear your browser cache or use an incognito window to view the changes.</li></ol><hr><p>This guide ensures you have everything needed to update the logo in <strong>T-Doc Theme</strong>.</p>
+                    <h1>Change the Site Logo</h1><p>The <strong>site logo</strong> is one of the key elements of your site’s branding. In <strong>T-Doc Theme</strong>, the logo is located in the <code>assets</code> folder and can be customized easily. Follow the steps below to update your site logo.</p><hr><h2 id="option-1-modify-the-template-instead">Option 1: Modify the Template Instead</h2><p>Instead of replacing the default <code>logo.png</code> files, you can directly modify the navigation template to use your own inline SVG or a custom image tag.</p><h3 id="use-a-custom-inline-svg">Use a Custom Inline SVG</h3><ol><li>Open the navigation template file:<pre><code>src/themes/default/templates/partials/navigation.mustache
+</code></pre></li><li>Locate the following block:<pre><code class="language-html">&lt;a href="{{site.baseUrl}}/" class="logo"&gt;
+  &lt;svg ...&gt;...&lt;/svg&gt;
+  &lt;span&gt;{{site.name}}&lt;/span&gt;
+&lt;/a&gt;
+</code></pre></li><li>Replace the <code>&lt;svg&gt;</code> tag with your own custom inline SVG content.</li></ol><h3 id="use-a-custom-img-tag">Use a Custom <img> Tag</h3><p>If you prefer using an image file instead of inline SVG:</p><ol><li>Replace the <code>&lt;svg&gt;</code> element with an image tag, like so:<pre><code class="language-html">&lt;picture&gt;
+  &lt;source
+    srcset="{{site.baseUrl}}/images/logos/logo~dark.png"
+    media="(prefers-color-scheme: dark)"
+  /&gt;
+  &lt;img
+    src="{{site.baseUrl}}/images/logos/logo.png"
+    alt="Logo of {{site.title}}"
+    title="{{site.title}}"
+  /&gt;
+&lt;/picture&gt;
+</code></pre></li><li>Make sure the path matches your custom logo file and that it’s placed in the correct location.</li><li>You may optionally add logic for dark mode by switching the image source via JavaScript or CSS.</li></ol><blockquote class="tip"><p>Keep the <code>alt</code> attribute meaningful for better accessibility.</p></blockquote><hr><h2 id="option-2-replace-the-default-logo-files">Option 2: Replace the Default Logo Files</h2><ol><li>Navigate to the <strong>src/assets/images/logos/</strong> directory in your project folder.<ul><li>By default, this folder contains two logo files::<ul><li><strong>logo.png</strong>: The primary logo used across the site.</li><li><strong>logo~dark.png</strong>: A variation of the logo used in dark mode (if your site supports it).</li></ul></li></ul></li></ol><hr><h3 id="step-1-prepare-your-custom-logos">Step 1: Prepare Your Custom Logos</h3><ol><li><strong>Create Your Custom Logos</strong>:<ul><li>Use design software like <strong>Adobe Photoshop</strong>, <strong>Canva</strong>, or <strong>Figma</strong> to create your custom logos.</li><li>Ensure the your logos align with your brand’s design.</li></ul></li><li><strong>Recommended File Format</strong>:<ul><li>Use PNG format with a transparent background for best results.</li><li>If you prefer other formats (e.g., SVG or JPG), ensure that your site supports them.</li></ul></li></ol><hr><h3 id="step-2-replace-the-logo-files">Step 2: Replace the Logo Files</h3><ol><li>Rename your custom logos to match the default logo file names:<ul><li><code>logo.png</code> (for the primary logo)</li><li><code>logo~dark.png</code> (for the dark mode logo)</li></ul></li><li>Copy your custom logo files into the <strong>src/assets/images/logos/</strong> directory.<ul><li>Overwrite the existing <code>logo.png</code> and <code>logo~dark.png</code> files.</li></ul></li></ol><hr><h3 id="step-3-regenerate-the-site">Step 3: Regenerate the Site</h3><p>After replacing the logo files, you need to regenerate your site for the changes to take effect:</p><ol><li>Open your terminal and navigate to your project directory.</li><li>Run the following command:<pre><code>toucan generate
+</code></pre></li><li>This command will process the updated assets and regenerate the site.</li></ol><hr><h3 id="step-4-preview-your-changes">Step 4: Preview Your Changes</h3><ol><li>Start the local development server to preview the updated site:<pre><code>toucan serve
+</code></pre></li><li>Open your browser and navigate to <a href="http://localhost:3000" target="_blank">http://localhost:3000</a>.</li><li>Verify that:<ul><li>The new logo is displayed on the site.</li><li>The dark mode logo (if applicable) is displayed correctly.</li></ul></li></ol><hr><h3 id="step-5-troubleshooting">Step 5: Troubleshooting</h3><p>If the updated logo does not appear, check the following:</p><ol><li><strong>File Naming</strong>: Ensure that your custom files are named exactly <code>logo.png</code> and <code>logo~dark.png</code>.</li><li><strong>File Path</strong>: Confirm the files are located in <strong>src/assets/images/logos/</strong>.</li><li><strong>Cache</strong>: Clear your browser cache or use an incognito window to view the changes.</li></ol><hr>
         
                 </article>
             </div>
@@ -368,22 +384,31 @@
                     <h4>On this page</h4>
                     <ul>
                         <li class="level-2">
-                            <a href="#step-1-locate-the-logo-files">Step 1: Locate the Logo Files</a>
+                            <a href="#option-1-modify-the-template-instead">Option 1: Modify the Template Instead</a>
+                        </li>
+        <li class="level-3">
+                            <a href="#use-a-custom-inline-svg">Use a Custom Inline SVG</a>
+                        </li>
+        <li class="level-3">
+                            <a href="#use-a-custom-img-tag">Use a Custom Tag</a>
                         </li>
         <li class="level-2">
-                            <a href="#step-2-prepare-your-custom-logos">Step 2: Prepare Your Custom Logos</a>
+                            <a href="#option-2-replace-the-default-logo-files">Option 2: Replace the Default Logo Files</a>
                         </li>
-        <li class="level-2">
-                            <a href="#step-3-replace-the-logo-files">Step 3: Replace the Logo Files</a>
+        <li class="level-3">
+                            <a href="#step-1-prepare-your-custom-logos">Step 1: Prepare Your Custom Logos</a>
                         </li>
-        <li class="level-2">
-                            <a href="#step-4-regenerate-the-site">Step 4: Regenerate the Site</a>
+        <li class="level-3">
+                            <a href="#step-2-replace-the-logo-files">Step 2: Replace the Logo Files</a>
                         </li>
-        <li class="level-2">
-                            <a href="#step-5-preview-your-changes">Step 5: Preview Your Changes</a>
+        <li class="level-3">
+                            <a href="#step-3-regenerate-the-site">Step 3: Regenerate the Site</a>
                         </li>
-        <li class="level-2">
-                            <a href="#step-6-troubleshooting">Step 6: Troubleshooting</a>
+        <li class="level-3">
+                            <a href="#step-4-preview-your-changes">Step 4: Preview Your Changes</a>
+                        </li>
+        <li class="level-3">
+                            <a href="#step-5-troubleshooting">Step 5: Troubleshooting</a>
                         </li>
                     </ul>
                 </aside>

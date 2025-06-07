@@ -174,55 +174,79 @@
       }
     ],
     "contents" : {
-      "html" : "<h1>Change the Site Logo</h1><p>The <strong>site logo</strong> is one of the key elements of your site’s branding. In <strong>T-Doc Theme</strong>, the logo is located in the <code>assets</code> folder and can be customized easily. Follow the steps below to update your site logo.</p><hr><h2 id=\"step-1-locate-the-logo-files\">Step 1: Locate the Logo Files</h2><ol><li>Navigate to the <strong>src/contents/assets/images/logos/</strong> directory in your project folder.<ul><li>By default, this folder contains two logo files::<ul><li><strong>logo.png</strong>: The primary logo used across the site.</li><li><strong>logo~dark.png</strong>: A variation of the logo used in dark mode (if your site supports it).</li></ul></li></ul></li></ol><hr><h2 id=\"step-2-prepare-your-custom-logos\">Step 2: Prepare Your Custom Logos</h2><ol><li><strong>Create Your Custom Logos</strong>:<ul><li>Use design software like <strong>Adobe Photoshop</strong>, <strong>Canva</strong>, or <strong>Figma</strong> to create your custom logos.</li><li>Ensure the your logos align with your brand’s design.</li></ul></li><li><strong>Recommended File Format</strong>:<ul><li>Use PNG format with a transparent background for best results.</li><li>If you prefer other formats (e.g., SVG or JPG), ensure that your site supports them.</li></ul></li></ol><hr><h2 id=\"step-3-replace-the-logo-files\">Step 3: Replace the Logo Files</h2><ol><li>Rename your custom logos to match the default logo file names:<ul><li><code>logo.png</code> (for the primary logo)</li><li><code>logo~dark.png</code> (for the dark mode logo)</li></ul></li><li>Copy your custom logo files into the <strong>src/contents/assets/images/logos/</strong> directory.<ul><li>Overwrite the existing <code>logo.png</code> and <code>logo~dark.png</code> files.</li></ul></li></ol><hr><h2 id=\"step-4-regenerate-the-site\">Step 4: Regenerate the Site</h2><p>After replacing the logo files, you need to regenerate your site for the changes to take effect:</p><ol><li>Open your terminal and navigate to your project directory.</li><li>Run the following command:<pre><code>toucan generate\n</code></pre></li><li>This command will process the updated assets and regenerate the site.</li></ol><hr><h2 id=\"step-5-preview-your-changes\">Step 5: Preview Your Changes</h2><ol><li>Start the local development server to preview the updated site:<pre><code>toucan serve\n</code></pre></li><li>Open your browser and navigate to <a href=\"http://localhost:3000\" target=\"_blank\">http://localhost:3000</a>.</li><li>Verify that:<ul><li>The new logo is displayed on the site.</li><li>The dark mode logo (if applicable) is displayed correctly.</li></ul></li></ol><hr><h2 id=\"step-6-troubleshooting\">Step 6: Troubleshooting</h2><p>If the updated logo does not appear, check the following:</p><ol><li><strong>File Naming</strong>: Ensure that your custom files are named exactly <code>logo.png</code> and <code>logo~dark.png</code>.</li><li><strong>File Path</strong>: Confirm the files are located in <strong>src/contents/assets/images/logos/</strong>.</li><li><strong>Cache</strong>: Clear your browser cache or use an incognito window to view the changes.</li></ol><hr><p>This guide ensures you have everything needed to update the logo in <strong>T-Doc Theme</strong>.</p>",
+      "html" : "<h1>Change the Site Logo</h1><p>The <strong>site logo</strong> is one of the key elements of your site’s branding. In <strong>T-Doc Theme</strong>, the logo is located in the <code>assets</code> folder and can be customized easily. Follow the steps below to update your site logo.</p><hr><h2 id=\"option-1-modify-the-template-instead\">Option 1: Modify the Template Instead</h2><p>Instead of replacing the default <code>logo.png</code> files, you can directly modify the navigation template to use your own inline SVG or a custom image tag.</p><h3 id=\"use-a-custom-inline-svg\">Use a Custom Inline SVG</h3><ol><li>Open the navigation template file:<pre><code>src/themes/default/templates/partials/navigation.mustache\n</code></pre></li><li>Locate the following block:<pre><code class=\"language-html\">&lt;a href=\"{{site.baseUrl}}/\" class=\"logo\"&gt;\n  &lt;svg ...&gt;...&lt;/svg&gt;\n  &lt;span&gt;{{site.name}}&lt;/span&gt;\n&lt;/a&gt;\n</code></pre></li><li>Replace the <code>&lt;svg&gt;</code> tag with your own custom inline SVG content.</li></ol><h3 id=\"use-a-custom-img-tag\">Use a Custom <img> Tag</h3><p>If you prefer using an image file instead of inline SVG:</p><ol><li>Replace the <code>&lt;svg&gt;</code> element with an image tag, like so:<pre><code class=\"language-html\">&lt;picture&gt;\n  &lt;source\n    srcset=\"{{site.baseUrl}}/images/logos/logo~dark.png\"\n    media=\"(prefers-color-scheme: dark)\"\n  /&gt;\n  &lt;img\n    src=\"{{site.baseUrl}}/images/logos/logo.png\"\n    alt=\"Logo of {{site.title}}\"\n    title=\"{{site.title}}\"\n  /&gt;\n&lt;/picture&gt;\n</code></pre></li><li>Make sure the path matches your custom logo file and that it’s placed in the correct location.</li><li>You may optionally add logic for dark mode by switching the image source via JavaScript or CSS.</li></ol><blockquote class=\"tip\"><p>Keep the <code>alt</code> attribute meaningful for better accessibility.</p></blockquote><hr><h2 id=\"option-2-replace-the-default-logo-files\">Option 2: Replace the Default Logo Files</h2><ol><li>Navigate to the <strong>src/assets/images/logos/</strong> directory in your project folder.<ul><li>By default, this folder contains two logo files::<ul><li><strong>logo.png</strong>: The primary logo used across the site.</li><li><strong>logo~dark.png</strong>: A variation of the logo used in dark mode (if your site supports it).</li></ul></li></ul></li></ol><hr><h3 id=\"step-1-prepare-your-custom-logos\">Step 1: Prepare Your Custom Logos</h3><ol><li><strong>Create Your Custom Logos</strong>:<ul><li>Use design software like <strong>Adobe Photoshop</strong>, <strong>Canva</strong>, or <strong>Figma</strong> to create your custom logos.</li><li>Ensure the your logos align with your brand’s design.</li></ul></li><li><strong>Recommended File Format</strong>:<ul><li>Use PNG format with a transparent background for best results.</li><li>If you prefer other formats (e.g., SVG or JPG), ensure that your site supports them.</li></ul></li></ol><hr><h3 id=\"step-2-replace-the-logo-files\">Step 2: Replace the Logo Files</h3><ol><li>Rename your custom logos to match the default logo file names:<ul><li><code>logo.png</code> (for the primary logo)</li><li><code>logo~dark.png</code> (for the dark mode logo)</li></ul></li><li>Copy your custom logo files into the <strong>src/assets/images/logos/</strong> directory.<ul><li>Overwrite the existing <code>logo.png</code> and <code>logo~dark.png</code> files.</li></ul></li></ol><hr><h3 id=\"step-3-regenerate-the-site\">Step 3: Regenerate the Site</h3><p>After replacing the logo files, you need to regenerate your site for the changes to take effect:</p><ol><li>Open your terminal and navigate to your project directory.</li><li>Run the following command:<pre><code>toucan generate\n</code></pre></li><li>This command will process the updated assets and regenerate the site.</li></ol><hr><h3 id=\"step-4-preview-your-changes\">Step 4: Preview Your Changes</h3><ol><li>Start the local development server to preview the updated site:<pre><code>toucan serve\n</code></pre></li><li>Open your browser and navigate to <a href=\"http://localhost:3000\" target=\"_blank\">http://localhost:3000</a>.</li><li>Verify that:<ul><li>The new logo is displayed on the site.</li><li>The dark mode logo (if applicable) is displayed correctly.</li></ul></li></ol><hr><h3 id=\"step-5-troubleshooting\">Step 5: Troubleshooting</h3><p>If the updated logo does not appear, check the following:</p><ol><li><strong>File Naming</strong>: Ensure that your custom files are named exactly <code>logo.png</code> and <code>logo~dark.png</code>.</li><li><strong>File Path</strong>: Confirm the files are located in <strong>src/assets/images/logos/</strong>.</li><li><strong>Cache</strong>: Clear your browser cache or use an incognito window to view the changes.</li></ol><hr>",
       "outline" : [
         {
           "children" : [
 
           ],
-          "fragment" : "step-1-locate-the-logo-files",
+          "fragment" : "option-1-modify-the-template-instead",
           "level" : 2,
-          "text" : "Step 1: Locate the Logo Files"
+          "text" : "Option 1: Modify the Template Instead"
         },
         {
           "children" : [
 
           ],
-          "fragment" : "step-2-prepare-your-custom-logos",
-          "level" : 2,
-          "text" : "Step 2: Prepare Your Custom Logos"
+          "fragment" : "use-a-custom-inline-svg",
+          "level" : 3,
+          "text" : "Use a Custom Inline SVG"
         },
         {
           "children" : [
 
           ],
-          "fragment" : "step-3-replace-the-logo-files",
-          "level" : 2,
-          "text" : "Step 3: Replace the Logo Files"
+          "fragment" : "use-a-custom-img-tag",
+          "level" : 3,
+          "text" : "Use a Custom Tag"
         },
         {
           "children" : [
 
           ],
-          "fragment" : "step-4-regenerate-the-site",
+          "fragment" : "option-2-replace-the-default-logo-files",
           "level" : 2,
-          "text" : "Step 4: Regenerate the Site"
+          "text" : "Option 2: Replace the Default Logo Files"
         },
         {
           "children" : [
 
           ],
-          "fragment" : "step-5-preview-your-changes",
-          "level" : 2,
-          "text" : "Step 5: Preview Your Changes"
+          "fragment" : "step-1-prepare-your-custom-logos",
+          "level" : 3,
+          "text" : "Step 1: Prepare Your Custom Logos"
         },
         {
           "children" : [
 
           ],
-          "fragment" : "step-6-troubleshooting",
-          "level" : 2,
-          "text" : "Step 6: Troubleshooting"
+          "fragment" : "step-2-replace-the-logo-files",
+          "level" : 3,
+          "text" : "Step 2: Replace the Logo Files"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "step-3-regenerate-the-site",
+          "level" : 3,
+          "text" : "Step 3: Regenerate the Site"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "step-4-preview-your-changes",
+          "level" : 3,
+          "text" : "Step 4: Preview Your Changes"
+        },
+        {
+          "children" : [
+
+          ],
+          "fragment" : "step-5-troubleshooting",
+          "level" : 3,
+          "text" : "Step 5: Troubleshooting"
         }
       ],
       "readingTime" : 1
@@ -231,24 +255,24 @@
     "image" : null,
     "lastUpdate" : {
       "date" : {
-        "full" : "Wednesday, March 19, 2025",
-        "long" : "March 19, 2025",
-        "medium" : "Mar 19, 2025",
-        "short" : "3/19/25"
+        "full" : "Saturday, June 7, 2025",
+        "long" : "June 7, 2025",
+        "medium" : "Jun 7, 2025",
+        "short" : "6/7/25"
       },
       "formats" : {
-        "iso8601" : "2025-03-19T09:14:25.000Z",
-        "rss" : "Wed, 19 Mar 2025 09:14:25 +0000",
-        "sitemap" : "2025-03-19",
+        "iso8601" : "2025-06-07T11:07:48.021Z",
+        "rss" : "Sat, 07 Jun 2025 11:07:48 +0000",
+        "sitemap" : "2025-06-07",
         "year" : "2025"
       },
       "time" : {
-        "full" : "9:14:25 AM Greenwich Mean Time",
-        "long" : "9:14:25 AM GMT",
-        "medium" : "9:14:25 AM",
-        "short" : "9:14 AM"
+        "full" : "11:07:48 AM Greenwich Mean Time",
+        "long" : "11:07:48 AM GMT",
+        "medium" : "11:07:48 AM",
+        "short" : "11:07 AM"
       },
-      "timestamp" : 1742375665
+      "timestamp" : 1749294468.0205536
     },
     "order" : 1,
     "permalink" : "https://nnbee.github.io/theme-basics/change-the-site-logo/",
@@ -565,7 +589,7 @@
       }
     ],
     "contents" : {
-      "html" : "<h1>Create a Custom Page in Navigation</h1><p>Adding a custom page is a great way to enhance your site’s functionality by including pages like ‘Contact Us,’ ‘FAQ,’ or other static content. Follow the steps below to create a custom page and add it to the navigation menu in <strong>T-Doc Theme</strong>.</p><hr><h3 id=\"step-1-edit-the-navigation-menu\">Step 1: Edit the Navigation Menu</h3><ol><li>Open the <strong>src/contents/index.yaml</strong> file in your project directory.<ul><li>This file <code>navigation</code> section manages the navigation menu displayed on your site.</li></ul></li><li>Add a new entry under the <code>navigation</code> section for your custom page. Example:</li></ol><pre><code class=\"language-yaml\">navigation:\n  - label: 'Docs'\n    url: '/docs/'\n  - label: 'About'\n    url: '/about/'\n  - label: 'Contact'\n    url: '/contact/'\n  - label: FAQ\n    url: '/faq/'\n</code></pre><p><strong>Fields Explanation</strong>:</p><ul><li><strong>label</strong>: The text displayed in the navigation menu.</li><li><strong>url</strong>: The relative URL of the custom page.</li></ul><hr><h3 id=\"step-2-create-the-custom-page-directory\">Step 2: Create the Custom Page Directory</h3><ol><li>Navigate to the <strong>src/contents/</strong> folder.</li><li>Create a new directory for your custom page. For example:</li></ol><pre><code class=\"language-bash\">mkdir src/contents/faq\n</code></pre><hr><h3 id=\"step-3-add-an-index.md-file\">Step 3: Add an <code>index.md</code> File</h3><ol><li>Inside the new directory (e.g., <code>src/contents/faq</code>), create a file named <code>index.md</code>.<ul><li>This file contains the metadata and content for the custom page.</li></ul></li><li>Add the following content to the <code>index.md</code> file:<pre><code>---\ntitle: \"FAQ\"\ndescription: \"Frequently asked questions\"\ntemplate: pages.default_page\n---\n</code></pre><strong>Fields Explanation</strong>:<ul><li><strong>title</strong>: The title of the custom page.</li><li><strong>description</strong>: A short description or summary of the page’s content.</li><li><strong>template</strong>: The Mustache template used to render the page.</li></ul></li></ol><hr><h3 id=\"step-4-add-content-to-the-page\">Step 4: Add Content to the Page</h3><p>Below the metadata in <code>index.md</code>, write the content of your custom page using Markdown. Example:</p><pre><code>## FAQ\n\n### How do I reset my password?\nIf you forgot your password, you can reset it by clicking the \"Forgot Password\" link on the login page.\n\n### How can I contact support?\nYou can reach our support team at [support@example.com](mailto:support@example.com).\n</code></pre><hr><h3 id=\"step-5-create-a-new-template-optional\">Step 5: Create a New Template (Optional)</h3><ol><li>If the default template <code>pages.default_page</code> does not fit your needs, create a custom Mustache template:<ul><li>Navigate to <strong>src/themes/default/templates/pages/</strong>.</li><li>Create a new Mustache file, e.g., <code>faq.mustache</code>.</li></ul></li><li>Update the <code>template</code> field in the custom page’s metadata to use your new template:<pre><code>template: pages.faq\n</code></pre></li></ol><hr><h3 id=\"step-6-regenerate-the-site\">Step 6: Regenerate the Site</h3><p>Once the custom page is created, regenerate the site to apply the changes:</p><ol><li>Open your terminal and navigate to your project directory.</li><li>Run the following command:<pre><code>toucan generate\n</code></pre></li><li>This updates the site’s content and refreshes the navigation menu.</li></ol><hr><h3 id=\"step-7-verify-the-custom-page\">Step 7: Verify the Custom Page</h3><ol><li>Start the local development server:<pre><code>toucan serve\n</code></pre></li><li>Open your browser and go to <a href=\"http://localhost:3000/faq/\" target=\"_blank\">http://localhost:3000/faq/</a>.</li><li>Ensure that the custom page is displayed correctly and can be accessed from the navigation menu.</li></ol><hr><h3 id=\"additional-notes\">Additional Notes</h3><ul><li><strong>Updating Content</strong>:<ul><li>You can edit the <code>index.md</code> file at any time to update the content of the custom page.</li></ul></li><li><strong>Styling</strong>:<ul><li>Update the relevant Mustache templates and CSS files in the <strong>themes/default/</strong> directory to customize the page’s look.</li></ul></li></ul><hr><p>This guide will help you create and manage custom pages easily in <strong>T-Doc Theme</strong>.</p>",
+      "html" : "<h1>Create a Custom Page in Navigation</h1><p>Adding a custom page is a great way to enhance your site’s functionality by including pages like ‘Contact Us,’ ‘FAQ,’ or other static content. Follow the steps below to create a custom page and add it to the navigation menu in <strong>T-Doc Theme</strong>.</p><hr><h3 id=\"step-1-edit-the-navigation-menu\">Step 1: Edit the Navigation Menu</h3><ol><li>Open the <strong>src/site.yaml</strong> file in your project directory.<ul><li>This file <code>navigation</code> section manages the navigation menu displayed on your site.</li></ul></li><li>Add a new entry under the <code>navigation</code> section for your custom page. Example:</li></ol><pre><code class=\"language-yaml\">navigation:\n  - label: 'Docs'\n    url: '/docs/'\n  - label: 'About'\n    url: '/about/'\n  - label: 'Contact'\n    url: '/contact/'\n  - label: FAQ\n    url: '/faq/'\n</code></pre><p><strong>Fields Explanation</strong>:</p><ul><li><strong>label</strong>: The text displayed in the navigation menu.</li><li><strong>url</strong>: The relative URL of the custom page.</li></ul><hr><h3 id=\"step-2-create-the-custom-page-directory\">Step 2: Create the Custom Page Directory</h3><ol><li>Navigate to the <strong>src/contents/</strong> folder.</li><li>Create a new directory for your custom page. For example:</li></ol><pre><code class=\"language-bash\">mkdir src/contents/faq\n</code></pre><hr><h3 id=\"step-3-add-an-index.md-file\">Step 3: Add an <code>index.md</code> File</h3><ol><li>Inside the new directory (e.g., <code>src/contents/faq</code>), create a file named <code>index.md</code>.<ul><li>This file contains the metadata and content for the custom page.</li></ul></li><li>Add the following content to the <code>index.md</code> file:<pre><code>---\ntitle: \"FAQ\"\ndescription: \"Frequently asked questions\"\ntemplate: pages.default_page\n---\n</code></pre><strong>Fields Explanation</strong>:<ul><li><strong>title</strong>: The title of the custom page.</li><li><strong>description</strong>: A short description or summary of the page’s content.</li><li><strong>template</strong>: The Mustache template used to render the page.</li></ul></li></ol><hr><h3 id=\"step-4-add-content-to-the-page\">Step 4: Add Content to the Page</h3><p>Below the metadata in <code>index.md</code>, write the content of your custom page using Markdown. Example:</p><pre><code>## FAQ\n\n### How do I reset my password?\nIf you forgot your password, you can reset it by clicking the \"Forgot Password\" link on the login page.\n\n### How can I contact support?\nYou can reach our support team at [support@example.com](mailto:support@example.com).\n</code></pre><hr><h3 id=\"step-5-create-a-new-template-optional\">Step 5: Create a New Template (Optional)</h3><ol><li>If the default template <code>pages.default_page</code> does not fit your needs, create a custom Mustache template:<ul><li>Navigate to <strong>src/themes/default/templates/pages/</strong>.</li><li>Create a new Mustache file, e.g., <code>faq.mustache</code>.</li></ul></li><li>Update the <code>template</code> field in the custom page’s metadata to use your new template:<pre><code>template: pages.faq\n</code></pre></li></ol><hr><h3 id=\"step-6-regenerate-the-site\">Step 6: Regenerate the Site</h3><p>Once the custom page is created, regenerate the site to apply the changes:</p><ol><li>Open your terminal and navigate to your project directory.</li><li>Run the following command:<pre><code>toucan generate\n</code></pre></li><li>This updates the site’s content and refreshes the navigation menu.</li></ol><hr><h3 id=\"step-7-verify-the-custom-page\">Step 7: Verify the Custom Page</h3><ol><li>Start the local development server:<pre><code>toucan serve\n</code></pre></li><li>Open your browser and go to <a href=\"http://localhost:3000/faq/\" target=\"_blank\">http://localhost:3000/faq/</a>.</li><li>Ensure that the custom page is displayed correctly and can be accessed from the navigation menu.</li></ol><hr><h3 id=\"additional-notes\">Additional Notes</h3><ul><li><strong>Updating Content</strong>:<ul><li>You can edit the <code>index.md</code> file at any time to update the content of the custom page.</li></ul></li><li><strong>Styling</strong>:<ul><li>Update the relevant Mustache templates and CSS files in the <strong>themes/default/</strong> directory to customize the page’s look.</li></ul></li></ul><hr><p>This guide will help you create and manage custom pages easily in <strong>T-Doc Theme</strong>.</p>",
       "outline" : [
         {
           "children" : [
@@ -638,24 +662,24 @@
     "image" : null,
     "lastUpdate" : {
       "date" : {
-        "full" : "Wednesday, March 19, 2025",
-        "long" : "March 19, 2025",
-        "medium" : "Mar 19, 2025",
-        "short" : "3/19/25"
+        "full" : "Saturday, June 7, 2025",
+        "long" : "June 7, 2025",
+        "medium" : "Jun 7, 2025",
+        "short" : "6/7/25"
       },
       "formats" : {
-        "iso8601" : "2025-03-19T09:53:39.000Z",
-        "rss" : "Wed, 19 Mar 2025 09:53:39 +0000",
-        "sitemap" : "2025-03-19",
+        "iso8601" : "2025-06-07T09:41:36.812Z",
+        "rss" : "Sat, 07 Jun 2025 09:41:36 +0000",
+        "sitemap" : "2025-06-07",
         "year" : "2025"
       },
       "time" : {
-        "full" : "9:53:39 AM Greenwich Mean Time",
-        "long" : "9:53:39 AM GMT",
-        "medium" : "9:53:39 AM",
-        "short" : "9:53 AM"
+        "full" : "9:41:36 AM Greenwich Mean Time",
+        "long" : "9:41:36 AM GMT",
+        "medium" : "9:41:36 AM",
+        "short" : "9:41 AM"
       },
-      "timestamp" : 1742378019
+      "timestamp" : 1749289296.812218
     },
     "order" : 4,
     "permalink" : "https://nnbee.github.io/theme-basics/add-a-new-page/",
@@ -706,7 +730,7 @@
       }
     ],
     "contents" : {
-      "html" : "<h1>Customize the Footer</h1><p>The footer is an important section of your website, often used to display additional navigation, social media links, or copyright information. Follow these steps to customize the footer in <strong>T-Doc Theme</strong>.</p><hr><h3 id=\"step-1-edit-the-footer-content\">Step 1: Edit the Footer Content</h3><ol><li>Open the <strong>src/contents/index.yaml</strong> file in your project directory.<ul><li>This file contains the global configuration for your site, including footer content.</li></ul></li><li>Locate the <code>footer-socials</code> section. Example:</li></ol><pre><code class=\"language-yaml\">footer-socials:\n  - title: 'Instagram'\n    url: 'https://instagram.com/'\n  - title: 'Facebook'\n    url: 'https://facebook.com/'\n  - title: 'YouTube'\n    url: 'https://youtube.com/'\n  - title: 'TikTok'\n    url: 'https://tiktok.com/'\n  - title: 'LinkedIn'\n    url: 'https://linkedin.com/'\n  - title: 'X'\n    url: 'https://x.com/'\n</code></pre><ol><li>Add, update, or remove social media links as needed:<ul><li><strong>title</strong>: The name of the social platform or link.</li><li><strong>url</strong>: The URL for the social link.</li><li><strong>icon</strong> (optional): You can use a one-line SVG tag.</li></ul></li></ol><hr><h3 id=\"step-2-add-custom-links-or-text\">Step 2: Add Custom Links or Text</h3><ol><li>To include additional text (e.g., copyright notices or custom links), locate or add a section like this in <strong>index.yaml</strong>:<pre><code class=\"language-yaml\">footer-links:\n  - label: 'Privacy Policy'\n    url: '/privacy-policy/'\n  - label: 'Terms of Service'\n    url: '/terms-of-service/'\n</code></pre></li><li>Modify the content to fit your requirements:<ul><li><strong>label</strong>: The text for the footer link.</li><li><strong>url</strong>: The relative or absolute URL for the link.</li></ul></li></ol><hr><h3 id=\"step-3-update-footer-styles-optional\">Step 3: Update Footer Styles (Optional)</h3><ol><li>Navigate to the <strong>src/themes/default/templates/partials/</strong> directory. The footer layout is defined in the Mustache file: <code>footer.mustache</code>.</li><li>Edit the <code>footer.mustache</code> to adjust the structure, style, or additional content. Example:<pre><code class=\"language-html\">&lt;footer&gt;\n  &lt;div class=\"footer-links\"&gt;\n    {{#footer-links}}\n    &lt;a href=\"{{url}}\"&gt;{{label}}&lt;/a&gt;\n    {{/footer-links}}\n  &lt;/div&gt;\n  &lt;div class=\"footer-socials\"&gt;\n    {{#footer-socials}}\n    &lt;a href=\"{{url}}\" target=\"_blank\"&gt;{{title}}&lt;/a&gt;\n    {{/footer-socials}}\n  &lt;/div&gt;\n&lt;/footer&gt;\n</code></pre></li><li>Modify the CSS styles in <strong>src/themes/default/assets/css/footer.css</strong> to match your design preferences.</li></ol><hr><h3 id=\"step-4-regenerate-the-site\">Step 4: Regenerate the Site</h3><p>After updating the footer content or styles, regenerate the site to apply the changes:</p><ol><li>Open your terminal and navigate to your project directory.</li><li>Run the following command:<pre><code>toucan generate\n</code></pre></li></ol><hr><h3 id=\"step-5-verify-the-footer-changes\">Step 5: Verify the Footer Changes</h3><ol><li>Start the local development server:<pre><code>toucan serve\n</code></pre></li><li>Open your browser and go to <a href=\"http://localhost:3000\" target=\"_blank\">http://localhost:3000</a>.</li><li>Scroll to the footer section to verify that the updates have been applied.</li></ol><hr><h3 id=\"additional-notes\">Additional Notes</h3><ul><li><strong>Dynamic Content</strong>:<ul><li>You can dynamically add more social or custom links and other custom elements by expanding the <code>index.yaml</code> file.</li></ul></li><li><strong>Footer Layout</strong>:<ul><li>For advanced customization, create a new footer template or modify the existing <code>footer.mustache</code> file, or copy and adjust files from the default theme.</li></ul></li></ul><hr><p>This guide ensures you can easily customize and manage your footer content in <strong>T-Doc Theme</strong>.</p>",
+      "html" : "<h1>Customize the Footer</h1><p>The footer is an important section of your website, often used to display additional navigation, social media links, or copyright information. Follow these steps to customize the footer in <strong>T-Doc Theme</strong>.</p><hr><h3 id=\"step-1-edit-the-footer-content\">Step 1: Edit the Footer Content</h3><ol><li>Open the <strong>src/site.yaml</strong> file in your project directory.<ul><li>This file contains the global configuration for your site, including footer content.</li></ul></li><li>Locate the <code>footer-socials</code> section. Example:</li></ol><pre><code class=\"language-yaml\">footer-socials:\n  - title: 'Instagram'\n    url: 'https://instagram.com/'\n  - title: 'Facebook'\n    url: 'https://facebook.com/'\n  - title: 'YouTube'\n    url: 'https://youtube.com/'\n  - title: 'TikTok'\n    url: 'https://tiktok.com/'\n  - title: 'LinkedIn'\n    url: 'https://linkedin.com/'\n  - title: 'X'\n    url: 'https://x.com/'\n</code></pre><ol><li>Add, update, or remove social media links as needed:<ul><li><strong>title</strong>: The name of the social platform or link.</li><li><strong>url</strong>: The URL for the social link.</li><li><strong>icon</strong> (optional): You can use a one-line SVG tag.</li></ul></li></ol><hr><h3 id=\"step-2-add-custom-links-or-text\">Step 2: Add Custom Links or Text</h3><ol><li>To include additional text (e.g., copyright notices or custom links), locate or add a section like this in <strong>site.yaml</strong>:<pre><code class=\"language-yaml\">footer-links:\n  - label: 'Privacy Policy'\n    url: '/privacy-policy/'\n  - label: 'Terms of Service'\n    url: '/terms-of-service/'\n</code></pre></li><li>Modify the content to fit your requirements:<ul><li><strong>label</strong>: The text for the footer link.</li><li><strong>url</strong>: The relative or absolute URL for the link.</li></ul></li><li>(Optional) Add your custom inline svg icon:<ul><li><strong>icon</strong>: The icon for the footer link.</li></ul></li></ol><hr><h3 id=\"step-3-update-footer-styles-optional\">Step 3: Update Footer Styles (Optional)</h3><ol><li>Navigate to the <strong>src/themes/default/templates/partials/</strong> directory. The footer layout is defined in the Mustache file: <code>footer.mustache</code>.</li><li>Edit the <code>footer.mustache</code> to adjust the structure, style, or additional content. Example:<pre><code class=\"language-html\">&lt;footer&gt;\n  &lt;div class=\"footer-links\"&gt;\n    {{#footer-links}}\n    &lt;a href=\"{{url}}\"&gt;{{label}}&lt;/a&gt;\n    {{/footer-links}}\n  &lt;/div&gt;\n  &lt;div class=\"footer-socials\"&gt;\n    {{#footer-socials}}\n    &lt;a href=\"{{url}}\" target=\"_blank\"&gt;{{title}}&lt;/a&gt;\n    {{/footer-socials}}\n  &lt;/div&gt;\n&lt;/footer&gt;\n</code></pre></li><li>Modify the CSS styles in <strong>src/themes/default/assets/css/footer.css</strong> to match your design preferences.</li></ol><hr><h3 id=\"step-4-regenerate-the-site\">Step 4: Regenerate the Site</h3><p>After updating the footer content or styles, regenerate the site to apply the changes:</p><ol><li>Open your terminal and navigate to your project directory.</li><li>Run the following command:<pre><code>toucan generate\n</code></pre></li></ol><hr><h3 id=\"step-5-verify-the-footer-changes\">Step 5: Verify the Footer Changes</h3><ol><li>Start the local development server:<pre><code>toucan serve\n</code></pre></li><li>Open your browser and go to <a href=\"http://localhost:3000\" target=\"_blank\">http://localhost:3000</a>.</li><li>Scroll to the footer section to verify that the updates have been applied.</li></ol><hr><h3 id=\"additional-notes\">Additional Notes</h3><ul><li><strong>Dynamic Content</strong>:<ul><li>You can dynamically add more social or custom links and other custom elements by expanding the <code>index.yaml</code> file.</li></ul></li><li><strong>Footer Layout</strong>:<ul><li>For advanced customization, create a new footer template or modify the existing <code>footer.mustache</code> file, or copy and adjust files from the default theme.</li></ul></li></ul><hr><p>This guide ensures you can easily customize and manage your footer content in <strong>T-Doc Theme</strong>.</p>",
       "outline" : [
         {
           "children" : [
@@ -763,24 +787,24 @@
     "image" : null,
     "lastUpdate" : {
       "date" : {
-        "full" : "Wednesday, March 19, 2025",
-        "long" : "March 19, 2025",
-        "medium" : "Mar 19, 2025",
-        "short" : "3/19/25"
+        "full" : "Saturday, June 7, 2025",
+        "long" : "June 7, 2025",
+        "medium" : "Jun 7, 2025",
+        "short" : "6/7/25"
       },
       "formats" : {
-        "iso8601" : "2025-03-19T10:16:26.000Z",
-        "rss" : "Wed, 19 Mar 2025 10:16:26 +0000",
-        "sitemap" : "2025-03-19",
+        "iso8601" : "2025-06-07T10:29:15.941Z",
+        "rss" : "Sat, 07 Jun 2025 10:29:15 +0000",
+        "sitemap" : "2025-06-07",
         "year" : "2025"
       },
       "time" : {
-        "full" : "10:16:26 AM Greenwich Mean Time",
-        "long" : "10:16:26 AM GMT",
-        "medium" : "10:16:26 AM",
-        "short" : "10:16 AM"
+        "full" : "10:29:15 AM Greenwich Mean Time",
+        "long" : "10:29:15 AM GMT",
+        "medium" : "10:29:15 AM",
+        "short" : "10:29 AM"
       },
-      "timestamp" : 1742379386
+      "timestamp" : 1749292155.941286
     },
     "order" : 5,
     "permalink" : "https://nnbee.github.io/theme-basics/customize-the-footer/",
@@ -1145,7 +1169,7 @@
       }
     ],
     "contents" : {
-      "html" : "<h1>GitHub Deploy</h1><p>Toucan-based websites can be hosted for free using GitHub Pages. Follow these steps to set up your site.</p><hr><h2 id=\"creating-a-repository-for-your-site\">Creating a repository for your site</h2><p>You can either create a repository or choose an existing repository for your site.</p><p>If you want to create a GitHub Pages site for a repository where not all of the files in the repository are related to the site, you will be able to configure a publishing source for your site. For example, you can have a dedicated branch and folder to hold your site source files, or you can use a custom GitHub Actions workflow to build and deploy your site source files.</p><p>If the account that owns the repository uses GitHub Free or GitHub Free for organizations, the repository must be public.</p><p>If you want to create a site in an existing repository, skip to the <a href=\"https://nnbee.github.io/github-deploy#creating-your-site\">Creating your site</a> section.</p><ol><li>In the upper-right corner of any page, select <code>+</code> , then click <strong>New repository</strong>.<br><img src=\"https://nnbee.github.io/assets/deployment/github-pages/image1.png\" alt=\"image1\"></li><li>Use the Owner dropdown menu to select the account you want to own the repository.<br><img src=\"https://nnbee.github.io/assets/deployment/github-pages/image2.png\" alt=\"image2\"></li><li>Type a name for your repository and an optional description. If you’re creating a user or organization site, your repository must be named <code>user.github.io</code> or <code>organization.github.io</code>. If your user or organization name contains uppercase letters, you must lowercase the letters. For more information, see <a href=\"https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites\" target=\"_blank\">About GitHub Pages</a>.<br><img src=\"https://nnbee.github.io/assets/deployment/github-pages/image3.png\" alt=\"image3\"></li><li>For the repository visibility, choose <strong>public</strong>. For more information, see <a href=\"https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories#about-repository-visibility\" target=\"_blank\">About repositories</a>.</li><li>Select <strong>Initialize this repository with a README</strong>.</li><li>Click <strong>Create repository</strong>.</li></ol><hr><h2 id=\"add-content-to-the-repository\">Add content to the repository</h2><ol><li>Clone the Repository locally to your computer, if not already done:<pre><code>git clone https://github.com/your-username/your-repository.git\n</code></pre></li><li>Navigate to the local repository folder and copy the <code>src</code> folder with all the content.<br>Use the generator’s serve command:<pre><code>toucan generate\n</code></pre>After succesfull generation all the data is generated inside the <code>docs</code> folder by Toucan.</li><li>Push all the content to GitHub, add and commit files:<pre><code>git add .\ngit commit -m \"Add generated site content\"\ngit push origin main\n</code></pre></li></ol><hr><h2 id=\"creating-your-site\">Creating your site</h2><p>Before you can create your site, you must have a repository for your site on GitHub. If you’re not creating your site in an existing repository, see <a href=\"https://nnbee.github.io/github-deploy#creating-a-repository-for-your-site\">Creating a repository for your site</a>.</p><ol><li>On GitHub, navigate to your site’s repository.</li><li>Under your repository name, click <code>Settings</code>. If you cannot see the <code>Settings</code> tab, select the <code>...</code> dropdown menu, then click <code>Settings</code>.</li><li>In the <code>Code and automation</code> section of the sidebar, click <code>Pages</code>.</li><li>Under Source, leave the option <code>Deploy from a branch</code>.<br><img src=\"https://nnbee.github.io/assets/deployment/github-pages/image4.png\" alt=\"image4\"></li><li>Under Branch:<br><img src=\"https://nnbee.github.io/assets/deployment/github-pages/image5.png\" alt=\"image5\"><ul><li>Select the branch where you committed your files (e.g., main).</li><li>Choose the <strong>/docs</strong> folder as the source.</li><li>Click Save.</li></ul></li><li>Check the published site, GitHub will provide a public URL for your site, such as:<pre><code>https://your-username.github.io/my-github-page/\n</code></pre></li></ol><hr><h2 id=\"managing-a-custom-domain\">Managing a custom domain</h2><p>You can set up or update certain DNS records and your repository settings to point the default domain for your GitHub Pages site to a custom domain.</p><ol><li>On GitHub, navigate to your site’s repository.</li><li>Under your repository name, click <code>Settings</code>. If you cannot see the <code>Settings</code> tab, select the <code>...</code> dropdown menu, then click <code>Settings</code>.</li><li>In the <code>Code and automation</code> section of the sidebar, click <code>Pages</code>.</li><li>Under <code>Custom domain</code>, type your custom domain, then click Save. If you are publishing your site from a branch, this will create a commit that adds a <code>CNAME</code> file directly to the root of your source branch. If you are publishing your site with a custom GitHub Actions workflow, no <code>CNAME</code> file is created, so you need to create one manually (containing only a line of text with your custom domain).<br><img src=\"https://nnbee.github.io/assets/deployment/github-pages/image6.png\" alt=\"image6\"></li><li>Navigate to your DNS provider and create either an <code>ALIAS</code>, <code>ANAME</code>, or <code>A</code> record. You can also create <code>AAAA</code> records for IPv6 support. If you’re implementing IPv6 support, we highly recommend using an <code>A</code> record in addition to your <code>AAAA</code> record, due to slow adoption of IPv6 globally. For more information about how to create the correct record, see your DNS provider’s documentation.</li></ol>",
+      "html" : "<h1>GitHub Deploy</h1><p>Toucan-based websites can be hosted for free using GitHub Pages. Follow these steps to set up your site.</p><hr><h2 id=\"creating-a-repository-for-your-site\">Creating a repository for your site</h2><p>You can either create a repository or choose an existing repository for your site.</p><p>If you want to create a GitHub Pages site for a repository where not all of the files in the repository are related to the site, you will be able to configure a publishing source for your site. For example, you can have a dedicated branch and folder to hold your site source files, or you can use a custom GitHub Actions workflow to build and deploy your site source files.</p><p>If the account that owns the repository uses GitHub Free or GitHub Free for organizations, the repository must be public.</p><p>If you want to create a site in an existing repository, skip to the <a href=\"https://nnbee.github.io/github-deploy#creating-your-site\">Creating your site</a> section.</p><ol><li>In the upper-right corner of any page, select <code>+</code> , then click <strong>New repository</strong>.<br><img src=\"https://nnbee.github.io/assets/deployment/github-pages/image1.png\" alt=\"image1\"></li><li>Use the Owner dropdown menu to select the account you want to own the repository.<br><img src=\"https://nnbee.github.io/assets/deployment/github-pages/image2.png\" alt=\"image2\"></li><li>Type a name for your repository and an optional description. If you’re creating a user or organization site, your repository must be named <code>user.github.io</code> or <code>organization.github.io</code>. If your user or organization name contains uppercase letters, you must lowercase the letters. For more information, see <a href=\"https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites\" target=\"_blank\">About GitHub Pages</a>.<br><img src=\"https://nnbee.github.io/assets/deployment/github-pages/image3.png\" alt=\"image3\"></li><li>For the repository visibility, choose <strong>public</strong>. For more information, see <a href=\"https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories#about-repository-visibility\" target=\"_blank\">About repositories</a>.</li><li>Select <strong>Initialize this repository with a README</strong>.</li><li>Click <strong>Create repository</strong>.</li></ol><hr><h2 id=\"add-content-to-the-repository\">Add content to the repository</h2><ol><li>Clone the Repository locally to your computer, if not already done:<pre><code class=\"language-bash\">git clone https://github.com/your-username/your-repository.git\n</code></pre></li><li>Update base url<br>When deploying to GitHub Pages, you need to update the baseUrl field in the configuration file, which is location in <strong>src/site.yml</strong>:<pre><code class=\"language-yaml\">baseUrl: 'http://localhost:3000/'\n</code></pre>Depending on your deployment setup, update baseUrl as follows:<ul><li>GitHub Pages (username/repo path):<pre><code class=\"language-yaml\">baseUrl: 'https://yourusername.github.io/repository-name/'\n</code></pre></li><li>Custom Domain (e.g., example.com):<pre><code class=\"language-yaml\">baseUrl: 'https://example.com/'\n</code></pre></li></ul>The <strong>baseUrl</strong> is used to generate correct links across your site. If it points to <strong>localhost</strong>, links may break when your site is live on GitHub Pages. <strong>Always remember to update baseUrl before deploying.</strong></li><li>Navigate to the local repository folder and copy the <strong>src</strong> folder with all the content.<br>Use the generator’s serve command:<pre><code class=\"language-bash\">toucan generate\n</code></pre>After succesfull generation all the data is generated inside the <strong>docs</strong> folder by Toucan.</li><li>Push all the content to GitHub, add and commit files:<pre><code class=\"language-bash\">git add .\ngit commit -m \"Add generated site content\"\ngit push origin main\n</code></pre></li></ol><hr><h2 id=\"creating-your-site\">Creating your site</h2><p>Before you can create your site, you must have a repository for your site on GitHub. If you’re not creating your site in an existing repository, see <a href=\"https://nnbee.github.io/github-deploy#creating-a-repository-for-your-site\">Creating a repository for your site</a>.</p><ol><li>On GitHub, navigate to your site’s repository.</li><li>Under your repository name, click <code>Settings</code>. If you cannot see the <code>Settings</code> tab, select the <code>...</code> dropdown menu, then click <code>Settings</code>.</li><li>In the <code>Code and automation</code> section of the sidebar, click <code>Pages</code>.</li><li>Under Source, leave the option <code>Deploy from a branch</code>.<br><img src=\"https://nnbee.github.io/assets/deployment/github-pages/image4.png\" alt=\"image4\"></li><li>Under Branch:<br><img src=\"https://nnbee.github.io/assets/deployment/github-pages/image5.png\" alt=\"image5\"><ul><li>Select the branch where you committed your files (e.g., main).</li><li>Choose the <strong>/docs</strong> folder as the source.</li><li>Click Save.</li></ul></li><li>Check the published site, GitHub will provide a public URL for your site, such as:<pre><code>https://your-username.github.io/my-github-page/\n</code></pre></li></ol><hr><h2 id=\"managing-a-custom-domain\">Managing a custom domain</h2><p>You can set up or update certain DNS records and your repository settings to point the default domain for your GitHub Pages site to a custom domain.</p><ol><li>On GitHub, navigate to your site’s repository.</li><li>Under your repository name, click <code>Settings</code>. If you cannot see the <code>Settings</code> tab, select the <code>...</code> dropdown menu, then click <code>Settings</code>.</li><li>In the <code>Code and automation</code> section of the sidebar, click <code>Pages</code>.</li><li>Under <code>Custom domain</code>, type your custom domain, then click Save. If you are publishing your site from a branch, this will create a commit that adds a <code>CNAME</code> file directly to the root of your source branch. If you are publishing your site with a custom GitHub Actions workflow, no <code>CNAME</code> file is created, so you need to create one manually (containing only a line of text with your custom domain).<br><img src=\"https://nnbee.github.io/assets/deployment/github-pages/image6.png\" alt=\"image6\"></li><li>Navigate to your DNS provider and create either an <code>ALIAS</code>, <code>ANAME</code>, or <code>A</code> record. You can also create <code>AAAA</code> records for IPv6 support. If you’re implementing IPv6 support, we highly recommend using an <code>A</code> record in addition to your <code>AAAA</code> record, due to slow adoption of IPv6 globally. For more information about how to create the correct record, see your DNS provider’s documentation.</li></ol>",
       "outline" : [
         {
           "children" : [
@@ -1186,24 +1210,24 @@
     "image" : null,
     "lastUpdate" : {
       "date" : {
-        "full" : "Wednesday, March 19, 2025",
-        "long" : "March 19, 2025",
-        "medium" : "Mar 19, 2025",
-        "short" : "3/19/25"
+        "full" : "Saturday, June 7, 2025",
+        "long" : "June 7, 2025",
+        "medium" : "Jun 7, 2025",
+        "short" : "6/7/25"
       },
       "formats" : {
-        "iso8601" : "2025-03-19T11:56:30.000Z",
-        "rss" : "Wed, 19 Mar 2025 11:56:30 +0000",
-        "sitemap" : "2025-03-19",
+        "iso8601" : "2025-06-07T10:32:29.894Z",
+        "rss" : "Sat, 07 Jun 2025 10:32:29 +0000",
+        "sitemap" : "2025-06-07",
         "year" : "2025"
       },
       "time" : {
-        "full" : "11:56:30 AM Greenwich Mean Time",
-        "long" : "11:56:30 AM GMT",
-        "medium" : "11:56:30 AM",
-        "short" : "11:56 AM"
+        "full" : "10:32:29 AM Greenwich Mean Time",
+        "long" : "10:32:29 AM GMT",
+        "medium" : "10:32:29 AM",
+        "short" : "10:32 AM"
       },
-      "timestamp" : 1742385390
+      "timestamp" : 1749292349.8943896
     },
     "order" : 1,
     "permalink" : "https://nnbee.github.io/deployment/github-pages/",
